@@ -5,21 +5,21 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Conference name"
-      description: "Conference description"
-      date: "November 15"
-      price: "$100"
+      name: "RSJS"
+      slogan: "Gaúcho com laço montado em rinoceronte"
+      description: "O maior evento de Javascript do sul do país"
+      date: "2013-03-13T20:00+03:00"
+      price: "R$ 50,00"
       venue: "Coco Bongo"
       address: "Boulevard Kukulcan, 30"
-      city: "Cancún"
+      city: "Porto Alegre"
       state: "Quintana"
 
     # Site info
     site:
-      url: "http://confboilerplate.com"
-      googleanalytics: "UA-33656081-1"
+      url: "http://rsjs.org"
+      googleanalytics: "UA-XXXXXX-X"
       images:
-        cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
         facebook: "http://braziljs.org/img/fb-share.jpg"
 
     # Active sections on the website
@@ -27,23 +27,19 @@ module.exports =
     # you can also change order here and it will reflect on page
     sections: [
       'about'
-      'location'
-      'speakers'
+      'subscribe'
       'schedule'
-      'sponsors'
-      'partners'
-      #'contact'
+      'location'
+      'contact'
     ]
 
     # Labels which you can translate to other languages
     labels:
-      about: "About"
-      location: "Location"
-      speakers: "Speakers"
-      schedule: "Schedule"
-      sponsors: "Sponsors"
-      partners: "Partners"
-      contact: "Contact"
+      about: "Sobre"
+      subscribe: "Inscrições"
+      schedule: "Programação"
+      location: "Local"
+      contact: "Contato"
 
     # The entire schedule
     schedule: [
@@ -119,9 +115,13 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
-      name: "Eventick"
+      name: "Grifo"
       logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
-      url: "http://eventick.com.br"
+      url: "http://gri.fo"
+    ,
+      name: "Terra"
+      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
+      url: "http://terra.com.br"
     ]
 
     # List of Partners
