@@ -2,11 +2,11 @@
 
 // Includes
 // ===========
-@import '~mixins.styl'
-@import '~variables.styl'
-@import '~grid.styl'
+@import '~includes/mixins.styl'
+@import '~includes/variables.styl'
+@import '~includes/grid.styl'
 
-@import '~reset.styl'
+@import '~includes/reset.styl'
 
 // Core
 // ===========
@@ -26,6 +26,10 @@ body
 
 a
     color: red
+
+
+#skiplinks
+    vhidden()
 
 // Header
 // ===========
@@ -77,14 +81,8 @@ a
     .year
         font-size: 28px
     .city
-        font-weight: 600        
-
-
-
-
-#skiplinks
-    vhidden()
+        font-weight: 600
 
 // Print
 // ===========
-@import '~print.styl'
+@import '~includes/print.styl'
