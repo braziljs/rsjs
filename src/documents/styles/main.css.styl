@@ -1,0 +1,90 @@
+@import 'nib'
+
+// Includes
+// ===========
+@import '~mixins.styl'
+@import '~variables.styl'
+@import '~grid.styl'
+
+@import '~reset.styl'
+
+// Core
+// ===========
+.wrapper
+    width: 732px
+    margin: 0 auto
+
+html
+    padding-top: gutterwidth * .5
+    background: url('../images/pattern.png')
+
+body
+    padding-top: gutterwidth
+    background: #FAFAFA
+    font: 16px/1.5 main-font
+    letter-spacing: -.06em
+
+a
+    color: red
+
+// Header
+// ===========
+.header
+    overflow: hidden;
+    .logo
+        column: 2
+        offset: 2
+        text-align: center
+        font-size: 64px
+        line-height: 78px
+        font-weight: 800
+        letter-spacing: -2px
+        position: relative
+        a
+            color: darkgrey
+            text-decoration: none
+            &:before, &:after
+                color: softgrey
+                position: absolute
+                bottom: 0
+                font-size: 42px
+            &:before
+                left: 20px
+                content: '{'
+            &:after
+                right: 20px
+                content: '}'
+        img
+            display: block
+    .sidebar
+        column: 2
+        padding-top: 40px
+        text-align: right
+        font-style: italic
+        line-height: 1.2
+    time
+        color: grey
+    .weekday, .year
+        font-weight: 300  
+        display: block      
+    .weekday
+        font-size: 18px
+        margin-bottom: -4px
+    .day
+        color: darkgrey
+        font-weight: 700
+        font-size: 22px
+    .year
+        font-size: 28px
+    .city
+        font-weight: 600        
+
+
+
+
+#skiplinks
+    vhidden()
+
+// Print
+// ===========
+@import '~print.styl'

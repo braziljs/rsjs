@@ -1,0 +1,50 @@
+// .-. .-. .-. .-.
+// Semantic.gs // for Stylus: http://learnboost.github.com/stylus/
+// .-. .-. .-. .-.
+
+// Mixins
+// ===========
+_grid(c = columns)
+    (columnwidth * c) + (gutterwidth * c)
+
+_gridtotal(c = columns)
+    if fluid is defined
+        100%
+    else
+        _grid(c)
+
+_gridprop(prop = margin)
+    if prop
+        prop + '-'
+    else
+        ''
+
+// Grid
+// ===========
+row(c = columns, prop = margin)
+    if fluid is defined
+        gap = _gridtotal(c) * gutterwidth * .5 / (_grid(c) - gutterwidth)
+    else
+        gap = gutterwidth * .5
+    display: block
+    overflow: hidden
+    prop = _gridprop(prop)
+    {prop}left: - gap
+    {prop}right: - gap
+
+hook(x, c = columns)
+    float: left
+    width: (_gridtotal(c) * _grid(x) / _grid(c))
+
+column(x, c = columns, prop = margin)
+    gap = _gridtotal(c) * (gutterwidth * .5 / _grid(c))
+    prop = _gridprop(prop)
+    float: left
+    width: (_gridtotal(c) * (_grid(x) - gutterwidth) / _grid(c))
+    {prop}left: gap
+    {prop}right: gap
+
+offset(x, c = columns, prop = margin)
+    signal = (abs(x) / x)
+    prop = _gridprop(prop)
+    {prop}left: (_gridtotal(c) * (_grid(x) + gutterwidth * .5 * signal) / _grid(c))
