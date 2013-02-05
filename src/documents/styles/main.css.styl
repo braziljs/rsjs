@@ -23,6 +23,7 @@ body
     padding-top: gutterwidth
     background: #FAFAFA
     font: 16px/1.5 main-font
+    color: darkgrey
     letter-spacing: -.06em
 
 p
@@ -35,8 +36,8 @@ a
 p a:hover
         transition: background .1s ease-out, color .1s ease-out
         background: #EEE
-        margin: 0 -.2em
-        padding: 0 .2em
+        margin: 0 -3px
+        padding: 0 3px
         text-decoration: none
         color: grey
 
@@ -149,8 +150,6 @@ nav
 // Section
 // ===========
 
-@import '~sections.styl'
-
 .title
     font-size: 36px
     font-style: italic
@@ -161,25 +160,35 @@ nav
     background: bg-shadow 0 bottom
 
 section
-    .row
-        overflow: hidden
-        clear: both
+    overflow: hidden
     .box
         column: 3
-        &:first-child
-            text-align: right
+        text-align: right
+        ~ .box
+            text-align: left
 
-section.about
-    .title
-        vhidden()
-    .enphase
-        column: 6
-        color: darkgrey
-        margin-top: gutterwidth * 1.75
-        margin-bottom: gutterwidth * 1.75
-        font-size: 20px
+            
+
+@import '~sections.styl'
+
+section.location
+    #map-canvas
+        column: 4
+        height: 250px
+    .address
+        column: 2
+        padding-top: gutterwidth
+        p
+            margin-bottom: gutterwidth * .5
+    .venue
+        font-size: 19px
         font-style: italic
-        text-align: center
+        font-weight: 800
+        line-height: 1.2
+
+
+
+
 
 // Print
 // ===========

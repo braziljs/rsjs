@@ -10,10 +10,10 @@ module.exports =
       description: "O maior evento de Javascript do sul do país"
       date: "2013-03-13T20:00+03:00"
       price: "R$ 50,00"
-      venue: "Coco Bongo"
-      address: "Boulevard Kukulcan, 30"
+      venue: "Condomínio do Edifício Edel Trade Center"
+      address: "Avenida Loureiro da Silva, 2001 - Centro"
       city: "Porto Alegre"
-      state: "Quintana"
+      state: "Rio Grande do Sul"
 
     # Site info
     site:
