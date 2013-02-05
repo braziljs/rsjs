@@ -9,10 +9,10 @@
 
     <div class="sidebar">
         <time datetime="<%= @conf.date %>">
-            <span class="weekday">sábado,</span>
-            <span class="day">03 de março</span>
-            <span class="year">2013</span>
+            <span class="item weekday">sábado,</span>
+            <span class="item day">03 de março</span>
+            <span class="item year">2013</span>
         </time>
-        <a class="city" href=""><%= @conf.city %></a>
+        <p><a class="city" href="http://pt.wikipedia.org/wiki/Porto_Alegre" rel="external"><%= @conf.city %></a></p>
     </div>
 </header>

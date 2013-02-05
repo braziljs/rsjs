@@ -123,17 +123,21 @@ module.exports =
     # List of Sponsors
     sponsors: [
       name: "Grifo"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
+      logo: "sponsors/grifo.png"
       url: "http://gri.fo"
     ,
       name: "Terra"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
+      logo: "sponsors/terra.png"
       url: "http://terra.com.br"
     ]
 
     # List of Partners
     partners: [
       name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
+      logo: "partners/braziljs.png"
       url: "http://braziljs.org"
+    ,
+      name: "Gonow"
+      logo: "partners/gonow.png"
+      url: "http://www.gonow.com.br"
     ]
