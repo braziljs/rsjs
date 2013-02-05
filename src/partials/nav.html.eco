@@ -1,5 +1,5 @@
 <nav id="nav">
-    <ul class="wrapper">
+    <ul>
         <% for section in @sections : %>
         <li class="nav-item">
             <a href="#<%= section %>" title="<%= @labels[section] %>"><%= @labels[section] %></a>

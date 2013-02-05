@@ -1,3 +1,18 @@
 vhidden()
     position: absolute
     left: -9999px
+
+braces()
+    position: relative
+    &:before, &:after
+        position: absolute
+        font-weight: 700
+        color: darkwhite
+    unless arguments[0] is null
+        &:before
+            left: arguments[0]
+            content: '{'
+    unless arguments[1] is null
+        &:after
+            right: arguments[1]
+            content: '}'

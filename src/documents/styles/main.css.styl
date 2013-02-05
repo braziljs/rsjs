@@ -21,7 +21,7 @@ html
 
 body
     padding-top: gutterwidth
-    background: #FAFAFA
+    background: darkwhite
     font: 16px/1.5 main-font
     color: darkgrey
     letter-spacing: -.06em
@@ -79,23 +79,11 @@ p a:hover
         line-height: 78px
         font-weight: 800
         letter-spacing: -2px
-        position: relative
         a
             color: darkgrey
             text-decoration: none
             &:hover
                 background: transparent
-            &:before, &:after
-                color: softgrey
-                position: absolute
-                bottom: -3px
-                font-size: 42px
-            &:before
-                left: 18px
-                content: '{'
-            &:after
-                right: 18px
-                content: '}'
         img
             display: block
     .sidebar
@@ -123,7 +111,8 @@ p a:hover
 // Nav
 // ===========
 nav
-    absolute: top 330px left
+    absolute: left right
+    top: 330px
     text-align: center
     text-transform: lowercase
     background: bg-shadow 0 bottom
@@ -164,7 +153,7 @@ nav
 
 section
     overflow: hidden
-    margin-bottom: gutterwidth
+    padding-bottom: gutterwidth
     .box
         column: 3
         text-align: right
@@ -216,9 +205,16 @@ section.schedule
 // Location
 // ===========
 section.location
-    #map-canvas
+    .title
+        margin-bottom: gutterwidth * 1.5
+    .map
         column: 4
-        height: 250px
+        #map-canvas
+            height: 250px  
+        p
+            text-align: right 
+            font-size: 14px
+            margin-top: 10px     
     .address
         column: 2
         padding-top: gutterwidth
@@ -231,7 +227,8 @@ section.location
 // ===========
 .footer
     background: bg-pattern
-    margin-top: gutterwidth * 2
+    margin-top: gutterwidth
+    overflow: hidden
     .title
         color: white
 
@@ -260,6 +257,52 @@ section.location
             text-decoration: none
             &:hover
                 background: darken(red, 5)
+
+// Braces
+// ===========
+.landing .wrapper
+    braces: 0 null
+    &:before
+        font-size: 130px
+        top: -130px
+        text-shadow: 2px 4px 10px rgba(black, .1)
+
+.footer .wrapper
+    braces: null 0
+    &:after
+        font-size: 180px
+        bottom: -90px
+        text-shadow: 2px 4px 10px rgba(black, .1)
+
+header .logo            
+    braces: 18px 18px
+    &:before, &:after
+        color: softgrey
+        bottom: -3px
+        font-size: 42px
+
+.photo
+    braces: -14px -12px
+    &:before, &:after
+        text-shadow: 2px 4px 4px rgba(black, .1)
+        z-index: 100
+    &:before
+        font-size: 60px
+        top: -30px
+    &:after
+        font-size: 50px
+        bottom: -16px
+.map
+    braces: -18px -12px
+    &:before, &:after
+        text-shadow: 2px 4px 4px rgba(black, .1)
+        z-index: 100
+    &:before
+        font-size: 100px
+        top: -50px
+    &:after
+        font-size: 70px
+        bottom: 15px
 
 // Print
 // ===========

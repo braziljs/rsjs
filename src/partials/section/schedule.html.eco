@@ -14,7 +14,7 @@
                 <h2 class="talk subtitle"><%= slot.presentation.title %></h2>
                 <p class="speaker"><a href="#"><%= slot.name %></a></p>
                 <% if slot.photo: %>
-                <img src="<%= slot.photo %>" class="photo" width="92" alt="<%= slot.name %>">
+                <div class="photo"><img src="<%= slot.photo %>" width="92" alt="<%= slot.name %>"></div>
                 <% end %>
                 <p><%= slot.presentation.description %></p>
             </td>

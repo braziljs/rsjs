@@ -1,4 +1,7 @@
-<div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
+<div class="frame map">
+   <div id="map-canvas" data-address="<%= @conf.address %>"></div>
+   <p><a href="http://maps.google.com?q=<%= encodeURI(@conf.address) %>" rel="external">ver no google maps</a></p>
+</div>
 
 <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
     <p class="subtitle venue"><%= @conf.venue %>.</p>

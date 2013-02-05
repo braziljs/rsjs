@@ -45,9 +45,11 @@
         <a href="#content">Pular para o conteúdo</a>
     </div>
 
-    <div class="wrapper">
-        <%- @partial('header.html.eco', @) %>
-        <%- @partial('nav.html.eco', @) %>
+    <div class="landing">
+        <div class="wrapper">
+            <%- @partial('header.html.eco', @) %>
+            <%- @partial('nav.html.eco', @) %>
+        </div>
     </div>
 
     <div class="content" id="content">
@@ -56,11 +58,18 @@
 
     <script src="scripts/rye-0.0.1.js"></script>
     <script src="scripts/main.js"></script>
-
-    <% if @conf.address != '': %>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="scripts/map.js"></script>
-    <% end %>
+    
+    <!-- maps api -->
+    <script>
+        (function () {
+            var ga = document.createElement('script')
+              , s = document.getElementsByTagName('script')[0]
+            ga.type = 'text/javascript'
+            ga.async = true
+            ga.src = document.location.protocol + '//maps.google.com/maps/api/js?sensor=false&callback=locationmap'
+            s.parentNode.insertBefore(ga, s)
+        })()
+    </script>
 
     <!-- google analytics api -->
     <script>
