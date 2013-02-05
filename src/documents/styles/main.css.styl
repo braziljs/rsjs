@@ -13,10 +13,11 @@
 .wrapper
     width: 732px
     margin: 0 auto
+    position: relative
 
 html
     padding-top: gutterwidth * .5
-    background: url('../images/pattern.png')
+    background: bg-pattern
 
 body
     padding-top: gutterwidth
@@ -24,8 +25,41 @@ body
     font: 16px/1.5 main-font
     letter-spacing: -.06em
 
+p
+    margin-bottom: 5px
+
 a
     color: red
+    display: inline-block
+
+p a:hover
+        transition: background .1s ease-out, color .1s ease-out
+        background: #EEE
+        margin: 0 -.2em
+        padding: 0 .2em
+        text-decoration: none
+        color: grey
+
+.button
+    display: inline-block
+    line-height: gutterwidth * 1.5
+    background: linear-gradient(lighten(#B8010B, 2) 30%, #7D0109)
+    color: white
+    text-decoration: none
+    font-size: 18px
+    padding: 0 gutterwidth
+    margin-top: 5px
+    border: 1px solid #91000A
+    border-radius: 5px
+    transition: all .1s ease-out
+    text-shadow: 1px 1px 2px #7D0109
+    box-shadow: 0 2px 6px rgba(black, .2), inset 0 2px 3px rgba(white, .25)
+    &:hover
+        text-shadow: 0 -1px 4px #7D0109
+        box-shadow: 0 2px 6px rgba(black, .2), inset 0 2px 3px rgba(black, .2)
+    &:active
+        transition: all 0 ease-out
+        box-shadow: 0 2px 6px rgba(black, .2), inset 0 6px 6px rgba(black, .2)
 
 
 #skiplinks
@@ -34,12 +68,13 @@ a
 // Header
 // ===========
 .header
-    overflow: hidden;
+    overflow: hidden
+    height: 410px
     .logo
         column: 2
         offset: 2
         text-align: center
-        font-size: 64px
+        font-size: 66px
         line-height: 78px
         font-weight: 800
         letter-spacing: -2px
@@ -47,16 +82,18 @@ a
         a
             color: darkgrey
             text-decoration: none
+            &:hover
+                background: transparent
             &:before, &:after
                 color: softgrey
                 position: absolute
-                bottom: 0
+                bottom: -3px
                 font-size: 42px
             &:before
-                left: 20px
+                left: 18px
                 content: '{'
             &:after
-                right: 20px
+                right: 18px
                 content: '}'
         img
             display: block
@@ -82,6 +119,67 @@ a
         font-size: 28px
     .city
         font-weight: 600
+
+// Nav
+// ===========
+nav
+    absolute: top 330px left
+    text-align: center
+    text-transform: lowercase
+    background: bg-shadow 0 bottom
+    ul
+        background: bg-shadow -1000px top
+    li
+        display: inline-block
+    a
+        size = gutterwidth * 2.5
+        font-size: 18px
+        line-height: size
+        height: size
+        display: block
+        padding: 0 gutterwidth * .5
+        color: grey
+        text-decoration: none
+        border-bottom: 0 solid red
+        &:hover
+            transition: all .1s ease-out
+            border-bottom-width: 4px
+            height: size - 4px
+
+// Section
+// ===========
+
+@import '~sections.styl'
+
+.title
+    font-size: 36px
+    font-style: italic
+    font-weight: 800
+    text-align: center
+    line-height: gutterwidth * 3
+    margin: gutterwidth 0
+    background: bg-shadow 0 bottom
+
+section
+    .row
+        overflow: hidden
+        clear: both
+    .box
+        column: 3
+        &:first-child
+            text-align: right
+
+section.about
+    .title
+        vhidden()
+    .enphase
+        column: 6
+        color: darkgrey
+        margin-top: gutterwidth * 1.75
+        margin-bottom: gutterwidth * 1.75
+        font-size: 20px
+        font-style: italic
+        text-align: center
 
 // Print
 // ===========

@@ -3,11 +3,8 @@ layout: default
 ---
 
 <% for section in @sections : %>
-  <!-- <%= section.toUpperCase() %> -->
-
-  <section class="<%= section %>" id="<%= section %>">
-    <%- @partial("section/#{section}.html.eco", @) %>
-  </section>
-
-  <!-- / <%= section.toUpperCase() %> -->
+    <section class="<%= section %>" id="<%= @labels[section].toLowerCase() %>">
+        <h1 class="title"><%= @labels[section] %></h1>
+        <%- @partial("section/#{section}.html.eco", @) %>
+    </section>
 <% end %>

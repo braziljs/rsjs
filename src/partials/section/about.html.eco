@@ -1,6 +1,15 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p class="enphase" itemprop="description">
+    Segunda edição do maior evento de Javascript do sul do país.<br>
+    Confira o sucesso da <a href="http://2012.rsjs.org" rel="external">primeira edição</a> e garanta o quanto antes a sua <a href="#">inscrição</a>.
+</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
-
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<div class="row">
+    <div class="box">
+        <p>Nos ajude a fazer um evento foda!</p>
+        <a href="#" class="button">Call 4 Paperz</a>
+    </div>
+    <div class="box">
+        <p>Nesta edição, uma parcela dos palestrantes quem decide é você.</p>
+        <p>Envie sua proposta e vote nas que achar mais interessante.</p>
+    </div>
+</div>
