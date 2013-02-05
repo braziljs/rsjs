@@ -35,7 +35,7 @@
     <!-- 114x114 for iPhone+retina+iPad, link to Android -->
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,600italic,700italic,800,800italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,600italic,700,700italic,800,800italic">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -51,14 +51,8 @@
     </div>
 
     <div class="content" id="content">
-        <div class="wrapper">
-            <%- @content %>
-        </div>
+        <%- @content %>
     </div>
-
-    <hr>
-
-    <footer class="footer"></footer>
 
     <script src="scripts/rye-0.0.1.js"></script>
     <script src="scripts/main.js"></script>

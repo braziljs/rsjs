@@ -2,9 +2,25 @@
 layout: default
 ---
 
-<% for section in @sections : %>
+<div class="wrapper">
+    <% for section in @sections : %>
     <section class="<%= section %>" id="<%= @labels[section].toLowerCase() %>">
         <h1 class="title"><%= @labels[section] %></h1>
         <%- @partial("section/#{section}.html.eco", @) %>
     </section>
-<% end %>
+    <% end %>
+</div>
+
+<div class="footer">
+    <div class="wrapper">
+        <% for section in @footer : %>
+        <section class="<%= section %>" id="<%= @labels[section].toLowerCase() %>">
+            <h1 class="title"><%= @labels[section] %></h1>
+            <%- @partial("section/#{section}.html.eco", @) %>
+        </section>
+        <% end %>
+        <div class="credits">
+            <p>desenvolvido por <a href="http://gri.fo" rel="external">gri.fo</a> e gerado com <a href="http://confboilerplate.com" rel="external">conf boilerplate</a></p>
+        </div>
+    </div>
+</div>

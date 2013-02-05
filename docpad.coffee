@@ -33,6 +33,11 @@ module.exports =
       'contact'
     ]
 
+    footer: [
+      'sponsors'
+      'partners'
+    ]
+
     # Labels which you can translate to other languages
     labels:
       about: "Sobre"
@@ -40,6 +45,8 @@ module.exports =
       schedule: "Programação"
       location: "Local"
       contact: "Contato"
+      sponsors: "Patrocínio"
+      partners: "Apoio"
 
     # The entire schedule
     schedule: [

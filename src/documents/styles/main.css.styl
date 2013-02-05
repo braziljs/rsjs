@@ -147,10 +147,115 @@ nav
             border-bottom-width: 4px
             height: size - 4px
 
-// Section
+// Content
 // ===========
-@import '~sections.styl'
+.title
+    font-size: 36px
+    font-style: italic
+    font-weight: 800
+    text-align: center
+    line-height: gutterwidth * 3
+    margin-bottom: gutterwidth
+    background: bg-shadow 0 bottom
 
+.subtitle
+    font-size: 19px
+    font-style: italic
+    font-weight: 800
+
+section
+    overflow: hidden
+    margin-bottom: gutterwidth
+    .box
+        column: 3
+        text-align: right
+        ~ .box
+            text-align: left
+
+// About
+// ===========
+section.about
+    .title
+        vhidden()
+    .enphase
+        column: 6
+        color: darkgrey
+        margin-top: gutterwidth * 1.75
+        margin-bottom: gutterwidth * 1.75
+        font-size: 20px
+        font-style: italic
+        text-align: center
+
+// Schedule
+// ===========
+section.schedule
+    thead th
+        vhidden()
+    .time
+        column: 1
+        font-size: 24px
+        font-style: italic
+        font-weight: 800
+        text-align: right
+    .slot
+        column: 5
+        margin-top: 6px
+        margin-bottom: gutterwidth
+        .talk
+            margin-bottom: -4px
+            position: relative
+        .speaker
+            font-style: italic
+            margin-bottom: gutterwidth * .5
+        .photo
+            margin-right: gutterwidth
+            float: left
+
+    .other
+        opacity: .6
+
+// Location
+// ===========
+section.location
+    #map-canvas
+        column: 4
+        height: 250px
+    .address
+        column: 2
+        padding-top: gutterwidth
+        p
+            margin-bottom: gutterwidth * .5
+    .venue
+        line-height: 1.2
+
+// Footer
+// ===========
+.footer
+    background: bg-pattern
+    margin-top: gutterwidth * 2
+    .title
+        color: white
+
+    .organizations
+        text-align: center
+        li
+            display: inline-block
+
+    .credits
+        text-align: center
+        font-size: 14px
+        padding: gutterwidth 0
+        color: white
+        p
+            display: inline-block
+            padding: 0 gutterwidth * 1.5
+            background: url('../images/crown.png') left center no-repeat
+        a
+            color: white
+            font-weight: 700
+            text-decoration: none
+            &:hover
+                background: darken(red, 5)
 
 // Print
 // ===========
