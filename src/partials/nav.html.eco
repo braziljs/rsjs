@@ -2,7 +2,7 @@
     <ul>
         <% for section in @sections : %>
         <li class="nav-item">
-            <a href="#<%= section %>" title="<%= @labels[section] %>"><%= @labels[section] %></a>
+            <a href="#<%= @labels[section].toLowerCase() %>" title="<%= @labels[section] %>"><%= @labels[section] %></a>
         </li>
         <% end %>
     </ul>
