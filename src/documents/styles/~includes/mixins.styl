@@ -2,6 +2,11 @@ vhidden()
     position: absolute
     left: -9999px
 
+font-size-em(size, reference = null)
+    if reference is null
+        reference = 16px
+    font-size: unit(size / reference, 'em')
+
 braces()
     position: relative
     &:before, &:after

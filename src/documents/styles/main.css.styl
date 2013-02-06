@@ -54,12 +54,12 @@ a
 
 .button
     display: inline-block
-    line-height: gutterwidth * 1.5
+    line-height: 2.5
     background: linear-gradient(lighten(#B8010B, 2) 30%, #7D0109)
     color: white
     text-decoration: none
-    font-size: 18px
-    padding: 0 gutterwidth
+    font-size-em: 18px
+    padding: 0 1.5em
     margin-top: 5px
     border: 1px solid #91000A
     border-radius: 5px
@@ -98,6 +98,13 @@ a
                 background: transparent
         img
             display: block
+
+        braces: 18px 18px
+        &:before, &:after
+            color: softgrey
+            bottom: -3px
+            font-size: 42px
+
     .sidebar
         column: 6
         absolute: right top 60px
@@ -110,13 +117,13 @@ a
             font-weight: 300
             color: grey
         .weekday
-            font-size: 18px
+            font-size-em: 18px
         .day
             color: darkgrey
             font-weight: 700
             font-size: 22px
         .year
-            font-size: 28px
+            font-size-em: 28px
         .city
             font-weight: 600
 
@@ -135,7 +142,7 @@ nav
         display: inline-block
     a
         size = gutterwidth * 2.5
-        font-size: 18px
+        font-size-em: 18px
         line-height: size
         height: size
         display: block
@@ -153,7 +160,7 @@ nav
         top: 0
         background: bg-pattern
         a
-            font-size: 16px
+            font-size-em: 16px
             line-height: navsize
             height: navsize
             color: white
@@ -164,16 +171,16 @@ nav
 // Content
 // ===========
 .title
-    font-size: 36px
+    font-size-em: 36px
     font-style: italic
     font-weight: 800
     text-align: center
-    line-height: gutterwidth * 3
+    line-height: 2.5
     margin-bottom: gutterwidth
     background: bg-shadow 0 bottom
 
 .subtitle
-    font-size: 19px
+    font-size-em: 19px
     font-style: italic
     font-weight: 800
 
@@ -181,7 +188,7 @@ section
     overflow: hidden
     margin-top: navsize * -1
     padding-top: navsize
-    padding-bottom: gutterwidth
+    padding-bottom: 1.5em
     .box
         column: 3
         text-align: right
@@ -196,19 +203,21 @@ section.about
     .enphase
         column: 6
         color: darkgrey
-        margin-top: gutterwidth * 1.75
-        margin-bottom: gutterwidth * 1.75
-        font-size: 20px
+        margin-top: 2.65em
+        margin-bottom: 2.65em
+        font-size-em: 20px
         font-style: italic
         text-align: center
 
 // Schedule
 // ===========
 section.schedule
+    table
+        margin-bottom: -2em
     thead th
         vhidden()
     .time, .slot:before
-        font-size: 24px
+        font-size-em: 24px
         font-style: italic
         font-weight: 800        
     .time
@@ -217,7 +226,7 @@ section.schedule
     .slot
         column: 5
         margin-top: 6px
-        margin-bottom: gutterwidth
+        margin-bottom: 2em
         .talk
             margin-bottom: -4px
             position: relative
@@ -226,7 +235,7 @@ section.schedule
             font-style: italic
             margin-bottom: gutterwidth * .5
         .photo
-            margin-right: gutterwidth
+            margin-right: 2em
             float: left
 
     .other
@@ -243,13 +252,13 @@ section.location
             height: 250px  
         p
             text-align: right 
-            font-size: 14px
+            font-size-em: 14px
             margin-top: 10px     
     .address
         column: 2
-        padding-top: gutterwidth
+        padding-top: 2em
         p
-            margin-bottom: gutterwidth * .5
+            margin-bottom: 1em
     .venue
         line-height: 1.2
 
@@ -257,29 +266,31 @@ section.location
 // ===========
 .footer
     background: bg-pattern
-    margin-top: gutterwidth
+    margin-top: 2em
     overflow: hidden
     .title
         color: white
 
     .organizations
         text-align: center
-        padding: gutterwidth * .5 0
         li
             display: inline-block
-            margin: 0 gutterwidth
+            margin: gutterwidth * .5 gutterwidth
 
     section.partners li
-        margin: 0 gutterwidth * .5
+        margin-left: gutterwidth * .5
+        margin-right: gutterwidth * .5
 
     .credits
         text-align: center
-        font-size: 14px
+        font-size-em: 14px
         padding: gutterwidth * 2 0 gutterwidth 0
         color: white
         p
             display: inline-block
-            padding: 0 gutterwidth * 1.5
+            padding: 0 2.75em
+            max-width: 80%
+            box-sizing: border-box
             background: url('../images/crown.png') left center no-repeat
         a
             color: white
@@ -303,13 +314,6 @@ section.location
         font-size: 180px
         bottom: -90px
         text-shadow: 2px 4px 10px rgba(black, .1)
-
-.header .logo            
-    braces: 18px 18px
-    &:before, &:after
-        color: softgrey
-        bottom: -3px
-        font-size: 42px
 
 .photo
     braces: -14px -12px
@@ -338,12 +342,16 @@ section.location
 // ===========
 
 @media only screen and (max-width: 550px)
+    body
+        font-size: 12px
+
     .header
+        height: auto
         .sidebar
             position: static
             float: none
             text-align: center
-            padding-top: gutterwidth
+            padding-top: 2em
     nav
         vhidden()
         right: auto
@@ -356,11 +364,14 @@ section.location
     section.location
         .map, .address
             column: 6
+        .address p
+            margin-bottom: 0
     section.schedule
         .time
             display: none
         .slot
             column: 6
+            margin-top: 0
             &:before
                 content: attr(data-time)
                 display: block
