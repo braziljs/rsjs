@@ -1,5 +1,14 @@
 (function ($) {
 
+    // External link
+    // ===========
+    $(document).on('click a[rel=external]', function (event) {
+        event.preventDefault()
+        window.open(this.href)
+    })
+
+    // Location map
+    // ===========
     window.locationmap = function () {
         var container = $('#map-canvas')
           , address   = container.attr('data-address')

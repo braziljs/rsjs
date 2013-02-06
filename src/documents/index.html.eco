@@ -20,7 +20,7 @@ layout: default
         </section>
         <% end %>
         <div class="credits">
-            <p>desenvolvido por <a href="http://gri.fo" rel="external">gri.fo</a> e gerado com <a href="http://confboilerplate.com" rel="external">conf boilerplate</a></p>
+            <p>desenvolvido por <a href="http://gri.fo" rel="external">gri.fo</a><!-- e <a href="https://github.com/braziljs/rsjs/graphs/contributors" rel="external">comunidade</a>,--> gerado com <a href="http://confboilerplate.com" rel="external">conf boilerplate</a></p>
         </div>
     </div>
 </div>
