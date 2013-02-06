@@ -1,4 +1,4 @@
-<nav id="nav">
+<nav id="nav" class="fixed">
     <ul>
         <% for section in @sections : %>
         <li class="nav-item">

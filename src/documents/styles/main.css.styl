@@ -26,16 +26,17 @@ body
     color: darkgrey
     letter-spacing: -.06em
 
+p
+    margin-bottom: 5px
+
 a
     color: red
     display: inline-block
 
-p
-    margin-bottom: 5px
-    a:hover, a:after
-        box-shadow: 1px 1px 2px rgba(black, .15)
+    p &:hover, p &:after
+            box-shadow: 1px 1px 2px rgba(black, .15)
 
-    a:hover
+    p &:hover
         transition: background .1s ease-out, color .1s ease-out
         margin: 0 -3px
         padding: 0 3px
@@ -43,7 +44,7 @@ p
         background: darkwhite
         color: grey
 
-    a[rel=external]:hover
+    p &[rel=external]:hover
         position: relative
         &:after
             absolute: top right -1.2em
@@ -139,10 +140,24 @@ nav
         color: grey
         text-decoration: none
         border-bottom: 0 solid red
-        &:hover
+        &.active, &:hover
             transition: all .1s ease-out
             border-bottom-width: 4px
             height: size - 4px
+
+    &.fixed
+        position: fixed
+        z-index: 100
+        top: 0
+        background: bg-pattern
+        a
+            font-size: 16px
+            line-height: navsize
+            height: navsize
+            color: white
+            border-color: white
+            &.active, &:hover
+                height: navsize - 4px
 
 // Content
 // ===========
@@ -162,6 +177,8 @@ nav
 
 section
     overflow: hidden
+    margin-top: navsize * -1
+    padding-top: navsize
     padding-bottom: gutterwidth
     .box
         column: 3
@@ -295,7 +312,7 @@ header .logo
     braces: -14px -12px
     &:before, &:after
         text-shadow: 2px 4px 4px rgba(black, .1)
-        z-index: 100
+        z-index: 10
     &:before
         font-size: 60px
         top: -30px
@@ -306,7 +323,7 @@ header .logo
     braces: -18px -12px
     &:before, &:after
         text-shadow: 2px 4px 4px rgba(black, .1)
-        z-index: 100
+        z-index: 10
     &:before
         font-size: 100px
         top: -50px
