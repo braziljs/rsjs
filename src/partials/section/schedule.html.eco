@@ -12,7 +12,7 @@
             <th class="time"><%= slot.presentation.time %></th>
             <td class="slot">
                 <h2 class="talk subtitle"><%= slot.presentation.title %></h2>
-                <p class="speaker"><a href="#"><%= slot.name %></a></p>
+                <p class="speaker"><a href="#" rel="external"><%= slot.name %></a></p>
                 <% if slot.photo: %>
                 <div class="photo"><img src="<%= slot.photo %>" width="92" alt="<%= slot.name %>"></div>
                 <% end %>
