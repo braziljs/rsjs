@@ -11,7 +11,7 @@
 // Core
 // ===========
 .wrapper
-    width: 732px
+    max-width: 732px
     margin: 0 auto
     position: relative
 
@@ -207,11 +207,12 @@ section.about
 section.schedule
     thead th
         vhidden()
-    .time
-        column: 1
+    .time, .slot:before
         font-size: 24px
         font-style: italic
-        font-weight: 800
+        font-weight: 800        
+    .time
+        column: 1
         text-align: right
     .slot
         column: 5
@@ -335,9 +336,6 @@ section.location
 
 // Magic responsive behavior
 // ===========
-@media only screen and (max-width: 732px)
-    .wrapper
-        width: 100%
 
 @media only screen and (max-width: 550px)
     .header
@@ -346,6 +344,9 @@ section.location
             float: none
             text-align: center
             padding-top: gutterwidth
+    nav
+        vhidden()
+        right: auto
     section
         .box
             column: 6
@@ -355,9 +356,14 @@ section.location
     section.location
         .map, .address
             column: 6
-    nav
-        display: none
-
+    section.schedule
+        .time
+            display: none
+        .slot
+            column: 6
+            &:before
+                content: attr(data-time)
+                display: block
 
 
 // Print
