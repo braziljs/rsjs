@@ -20,7 +20,6 @@ html
     background: bg-pattern
 
 body
-    padding-top: gutterwidth
     background: softwhite
     font: 16px/1.5 main-font
     color: darkgrey
@@ -80,10 +79,13 @@ a
 // Header
 // ===========
 .header
-    height: 410px
+    height: 405px
+    padding-top: gutterwidth
     .logo
-        column: 2
-        offset: 2
+        width: 214px
+        margin: 0 auto
+        position: relative
+        z-index: 1
         text-align: center
         font-size: 66px
         line-height: 78px
@@ -97,8 +99,8 @@ a
         img
             display: block
     .sidebar
-        column: 2
-        padding-top: 40px
+        column: 6
+        absolute: right top 60px
         text-align: right
         font-style: italic
         .item
@@ -122,7 +124,8 @@ a
 // ===========
 nav
     absolute: left right
-    top: 330px
+    z-index: 100
+    top: 360px
     text-align: center
     text-transform: lowercase
     background: bg-shadow 0 bottom
@@ -147,7 +150,6 @@ nav
 
     &.fixed
         position: fixed
-        z-index: 100
         top: 0
         background: bg-pattern
         a
@@ -291,7 +293,7 @@ section.location
     braces: 0 null
     &:before
         font-size: 130px
-        top: -130px
+        top: -100px
         text-shadow: 2px 4px 10px rgba(black, .1)
 
 .footer .wrapper
@@ -301,7 +303,7 @@ section.location
         bottom: -90px
         text-shadow: 2px 4px 10px rgba(black, .1)
 
-header .logo            
+.header .logo            
     braces: 18px 18px
     &:before, &:after
         color: softgrey
@@ -330,6 +332,33 @@ header .logo
     &:after
         font-size: 70px
         bottom: 15px
+
+// Magic responsive behavior
+// ===========
+@media only screen and (max-width: 732px)
+    .wrapper
+        width: 100%
+
+@media only screen and (max-width: 550px)
+    .header
+        .sidebar
+            position: static
+            float: none
+            text-align: center
+            padding-top: gutterwidth
+    section
+        .box
+            column: 6
+            text-align: left
+            ~ .box
+                margin-top: gutterwidth * .5
+    section.location
+        .map, .address
+            column: 6
+    nav
+        display: none
+
+
 
 // Print
 // ===========
