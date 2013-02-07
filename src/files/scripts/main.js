@@ -1,4 +1,13 @@
-(function ($) {
+window.requestAnimationFrame = 
+    window.webkitRequestAnimationFrame 
+ || window.mozRequestAnimationFrame
+ || window.msRequestAnimationFrame
+ || window.oRequestAnimationFrame
+ || function (fn) {
+        return setTimeout(fn, 1000 / 60)
+    }
+
+;(function ($) {
 
     // External link
     // ===========
@@ -37,9 +46,41 @@
         })
     }
 
+    // Scroll smooth
+    // ===========
+    ;(function(){
+        var id, target, current, last
+
+        function step() {
+            current = window.scrollY - (window.scrollY - target) / 5
+            
+            document.body.scrollTop = current
+            document.documentElement.scrollTop = current
+
+            if (last != current) {
+                window.requestAnimationFrame(step)
+            } else {
+                document.location.hash = id
+                delete step.runnig
+            }
+            last = current
+        }
+
+        $(document).on('click a[href*="#"]', function (event) {
+            event.preventDefault()
+            id = this.getAttribute('href')
+            target = $(id).get(0).getBoundingClientRect().top + window.scrollY
+            
+            if (!step.runnig) {
+                step.runnig = true
+                step()
+            }
+        })
+
+    })()
+
     // Scroll spy
     // ===========
-    
     ScrollSpy = {
         scrollLast: 0
       , nav: $('nav')
