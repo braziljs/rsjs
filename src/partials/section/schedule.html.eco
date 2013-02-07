@@ -11,7 +11,7 @@
         <tr>
             <th class="time"><%= slot.time %></th>
             <td class="slot" data-time="<%= slot.time %>">
-                <h2 class="talk subtitle"><%= slot.title %></h2>
+                <h2 class="talk subtitle"><%= slot.presentation.title %></h2>
                 <p class="speaker"><a href="#" rel="external"><%= slot.name %></a></p>
                 <% if slot.photo: %>
                 <div class="photo"><img src="<%= slot.photo %>" width="92" alt="<%= slot.name %>"></div>
