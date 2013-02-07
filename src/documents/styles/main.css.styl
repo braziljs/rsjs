@@ -78,6 +78,17 @@ a
 
 // Header
 // ===========
+@keyframes rhino-horn
+    0%
+        transform: rotate(0)
+    16%
+        transform: rotate(10deg)
+    28%
+        transform: rotate(-4deg)
+    40%
+        transform: rotate(0)
+
+
 .header
     height: 405px
     padding-top: gutterwidth
@@ -86,24 +97,34 @@ a
         margin: 0 auto
         position: relative
         z-index: 1
-        text-align: center
-        font-size: 66px
-        line-height: 78px
-        font-weight: 800
-        letter-spacing: -2px
+        background: url('../images/rhino.png') no-repeat
+
         a
             color: darkgrey
             text-decoration: none
-            &:hover
-                background: transparent
-        img
             display: block
+            letter-spacing: -2px
+            font-size: 66px
+            line-height: 78px
+            font-weight: 800
+            text-align: center
+            padding-top: 200px
+            braces: 18px 18px
+            &:before, &:after
+                color: softgrey
+                bottom: -3px
+                font-size: 42px
+        .rhino
+            absolute: top bottom
+            left: 0
+            right: 0
 
-        braces: 18px 18px
-        &:before, &:after
-            color: softgrey
-            bottom: -3px
-            font-size: 42px
+            background: url('../images/rhino.png') -250px 0 no-repeat
+
+        a:hover .rhino
+            transform-origin: 60% 50%
+            animation: rhino-horn 2s ease-out
+            animation-iteration-count: infinite
 
     .sidebar
         column: 6

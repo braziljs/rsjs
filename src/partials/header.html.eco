@@ -2,7 +2,7 @@
 <header class="header">
     <h1 class="logo">
         <a href="#" title="<%= @conf.slogan %>" itemprop="name">
-            <img src="images/rinoceronte.png" width="214" height="200" alt="<%= @conf.slogan %>">
+            <span class="rhino"></span>
             <%= @conf.name %>
         </a>
     </h1>
