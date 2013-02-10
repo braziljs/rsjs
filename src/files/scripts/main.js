@@ -52,7 +52,7 @@ window.requestAnimationFrame =
         var id, target, current, last
 
         function step() {
-            current = window.scrollY - (window.scrollY - target) / 5
+            current = window.pageYOffset - (window.pageYOffset - target) / 5
             
             document.body.scrollTop = current
             document.documentElement.scrollTop = current
@@ -69,7 +69,7 @@ window.requestAnimationFrame =
         $(document).on('click a[href*="#"]', function (event) {
             event.preventDefault()
             id = this.getAttribute('href')
-            target = $(id).get(0).getBoundingClientRect().top + window.scrollY
+            target = $(id).get(0).getBoundingClientRect().top + window.pageYOffset
             
             if (!step.runnig) {
                 step.runnig = true
@@ -81,7 +81,7 @@ window.requestAnimationFrame =
 
     // Scroll spy
     // ===========
-    ScrollSpy = {
+    var ScrollSpy = {
         scrollLast: 0
       , nav: $('nav')
       , active: $()
@@ -102,7 +102,7 @@ window.requestAnimationFrame =
     }
 
     ScrollSpy.getActive = function () {
-        var scroll = window.scrollY
+        var scroll = window.pageYOffset
           , id = null
 
         for (var i = 0, l = this.sections.length; i < l; i++) {
