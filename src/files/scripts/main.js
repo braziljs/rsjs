@@ -9,6 +9,21 @@ window.requestAnimationFrame =
 
 ;(function ($) {
 
+    // Rye - Load Script
+    // ===========
+    Rye.loadScript = function (urls) {
+        var script = $('script').eq(0)
+        if (!Array.isArray(urls)) {
+            urls = [urls]
+        }
+        urls.forEach(function (url) {
+            var element = document.createElement('script')
+            element.async = true
+            element.src = '//' + url
+            script.before(element)
+        })
+    }
+
     // External link
     // ===========
     $(document).on('click a[rel=external]', function (event) {
@@ -16,9 +31,9 @@ window.requestAnimationFrame =
         window.open(this.href)
     })
 
-    // Location map
+    // Location map (async init)
     // ===========
-    window.locationmap = function () {
+    window.mapsAsyncInit = function () {
         var container = $('#map-canvas')
           , address   = container.attr('data-address')
           , options   = {
@@ -48,7 +63,7 @@ window.requestAnimationFrame =
 
     // Scroll smooth
     // ===========
-    ;(function(){
+    ;(function () {
         var id, target, current, last
 
         function step() {
