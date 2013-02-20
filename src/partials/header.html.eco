@@ -4,6 +4,7 @@
         <a href="#" title="<%= @conf.slogan %>" itemprop="name">
             <span class="rhino"></span>
             <%= @conf.name %>
+            <span class="year">2013</span>
         </a>
     </h1>
 
