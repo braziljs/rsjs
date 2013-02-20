@@ -211,19 +211,24 @@ nav
     font-weight: 800
     text-align: center
     line-height: 2.5
-    margin-bottom: gutterwidth
+    margin-bottom: unit(32px / 36px, 'em')
     background: bg-shadow 0 bottom
 
 .subtitle
     font-size-em: 19px
     font-style: italic
     font-weight: 800
+    margin-bottom: 1em
 
 section
-    overflow: hidden
     margin-top: navsize * -1
     padding-top: navsize
     padding-bottom: 1.5em
+    .row
+        overflow: hidden
+        clear: both
+        ~ .row
+            padding-top: 2em
     .box
         column: 3
         text-align: right
@@ -296,6 +301,12 @@ section.location
             margin-bottom: 1em
     .venue
         line-height: 1.2
+
+// Contact
+// ===========
+section.contact
+    .curator
+        font-style: italic
 
 // Footer
 // ===========
