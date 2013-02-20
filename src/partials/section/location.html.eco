@@ -5,8 +5,8 @@
     </div>
 
     <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <p class="subtitle venue"><%= @conf.venue %>.</p>
-        <p itemprop="streetAddress"><%= @conf.address %>.</p>
+        <p class="subtitle venue"><a href="<%= @conf.venueLink %>" rel="external"><%= @conf.venue %></a></p>
+        <p itemprop="streetAddress"><b><%= @conf.mall %></b><br> <%= @conf.address %></p>
         <p>
             <span itemprop="addressLocality"><%= @conf.city %></span>,
             <span itemprop="addressRegion"> <%= @conf.state %></span>

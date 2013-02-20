@@ -11,7 +11,7 @@
     <div class="sidebar">
         <time datetime="<%= @conf.date %>">
             <span class="item weekday">sábado,</span>
-            <span class="item day">03 de março</span>
+            <span class="item day">23 de março</span>
             <span class="item year">2013</span>
         </time>
         <p><a class="city" href="http://pt.wikipedia.org/wiki/Porto_Alegre" rel="external"><%= @conf.city %></a></p>
