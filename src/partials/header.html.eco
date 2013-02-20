@@ -1,7 +1,7 @@
 
 <header class="header">
     <h1 class="logo">
-        <a href="#" title="<%= @conf.slogan %>" itemprop="name">
+        <a href="#landing" title="<%= @conf.slogan %>" itemprop="name">
             <span class="rhino"></span>
             <%= @conf.name %>
             <span class="year">2013</span>

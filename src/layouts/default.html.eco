@@ -45,7 +45,7 @@
         <a href="#content">Pular para o conteúdo</a>
     </div>
 
-    <div class="landing">
+    <div class="landing" id="landing">
         <div class="wrapper">
             <%- @partial('header.html.eco', @) %>
             <%- @partial('nav.html.eco', @) %>
