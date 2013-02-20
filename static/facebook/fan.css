@@ -1,0 +1,56 @@
+.fan_box .full_widget {
+    border: none !important;
+    position: relative;
+    background: transparent;
+}
+
+.fan_box .full_widget .connect_top {
+    background: transparent;
+    padding-top: 0;  
+}
+
+.fan_box .profileimage {
+    display: none;
+}
+
+.fan_box .connect_action {
+    padding: 0;
+}
+
+.fan_box .connect_action .name_block,
+.fan_box .connect_action .name_block + div {
+    width: 48%;
+}
+
+.fan_box .connect_action .name_block {
+    float: left;
+    text-align: right;
+}
+
+.fan_box .connect_action .name_block + div {
+    float: right;
+}
+
+.fan_box .connect_action .name_block {
+    line-height: 24px
+}
+
+.fan_box .connect_widget .connect_widget_interactive_area {
+    margin: 0;
+}
+
+.fan_box .connections {
+    border: none;
+    margin: 0;
+    padding-top: 0;
+}
+
+.fan_box .total_plus {
+    display: none;
+}
+
+.fan_box .connections_grid {
+    width: 550px;
+    padding-left: 5px;
+    margin: 0 auto;
+}

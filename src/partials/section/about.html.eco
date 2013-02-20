@@ -13,3 +13,7 @@
         <p>Envie sua proposta e vote nas que achar mais interessante.</p>
     </div>
 </div>
+
+<div class="row social-box">
+    <iframe height="105" width="100%" scrolling="no" allowTransparency="true" src="https://www.facebook.com/plugins/fan.php?locale=pt_BR&amp;connections=10&amp;css=http%3A%2F%2F2012.rsjs.org%2Ffacebook%2Ffan.css%3Fv%3Dd_9&amp;id=414629961959679&amp;logobar=false&amp;stream=false"></iframe>
+</div>
