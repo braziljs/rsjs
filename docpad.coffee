@@ -22,7 +22,7 @@ module.exports =
       url: "http://rsjs.org"
       googleanalytics: "UA-29193339-1"
       images:
-        facebook: "http://braziljs.org/img/fb-share.jpg"
+        facebook: "http://rsjs.org/images/fb-share.jpg"
 
     # Active sections on the website
     # to deactivate comment out with '#'
