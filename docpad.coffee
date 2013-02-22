@@ -53,7 +53,7 @@ module.exports =
     # The entire schedule
     schedule: [
       name: "Check-in"
-      time: "9h40"
+      time: "08h40"
     ,
       name: "Felipe Nascimento"
       time: "09h00"
