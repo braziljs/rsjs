@@ -50,6 +50,7 @@
             <%- @partial('header.html.eco', @) %>
             <%- @partial('nav.html.eco', @) %>
         </div>
+        <a href="http://github.com/braziljs/rsjs" class="fork-me" rel="external">Fork me on GitHub</a>
     </div>
 
     <div class="content" id="content">

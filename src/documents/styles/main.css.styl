@@ -90,6 +90,12 @@ a
     40%
         transform: rotate(0)
 
+.fork-me
+    fixed: right top
+    width: 140px
+    height: 140px
+    replace-text: url('../images/fork-me.png')
+    z-index: 200
 
 .header
     height: 405px
@@ -396,11 +402,12 @@ section.contact
 
 // Magic responsive behavior
 // ===========
-
+@media only screen and (max-width: 850px)
+    .fork-me
+        display: none
 @media only screen and (max-width: 550px)
     body
         font-size: 12px
-
     .header
         height: auto
         .sidebar
