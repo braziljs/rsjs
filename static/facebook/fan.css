@@ -17,22 +17,16 @@
     padding: 0;
 }
 
-.fan_box .connect_action .name_block,
-.fan_box .connect_action .name_block + div {
-    width: 48%;
-}
-
 .fan_box .connect_action .name_block {
+    width: 48%;
+    line-height: 24px;
+    margin-right: 4%;
     float: left;
     text-align: right;
 }
 
-.fan_box .connect_action .name_block + div {
-    float: right;
-}
-
-.fan_box .connect_action .name_block {
-    line-height: 24px
+.fan_box .mts {
+    margin-top: 0;
 }
 
 .fan_box .connect_widget .connect_widget_interactive_area {
