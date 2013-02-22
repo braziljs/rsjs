@@ -9,7 +9,7 @@ module.exports =
       slogan: "Gaúcho com laço montado em rinoceronte"
       description: "O maior evento de Javascript do sul do país"
       date: "2013-03-23T09:00+03:00"
-      price: "R$ 50,00"
+      price: ""
       venue: "Nós Coworking"
       venueLink: "http://www.noscoworking.com.br"
       mall: "Shopping Total"
@@ -52,74 +52,68 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: "Check-in / Breakfast"
-      time: "9h00"
+      name: "Check-in"
+      time: "9h40"
     ,
-      name: "Linus Torvalds"
+      name: "Felipe Nascimento"
+      time: "09h00"
+      photo: "http://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?s=100"
+      company: "Terra"
+      site: "http://felipenmoura.org"
+      presentation:
+        title: "A definir"
+        description: ""
+    ,
+      name: "Call 4 Paperz"
       time: "10h00"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
-      twitter: "linus"
+      site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
-        title: "Digging into a Linux Kernel"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+          title: "Palestra"
     ,
-      name: "Bill Gates"
+      name: "Call 4 Paperz"
       time: "11h00"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Microsoft"
-      twitter: "billy95"
+      site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+          title: "Palestra"
     ,
-      name: "Lunch"
+      name: "Almoço"
       time: "12h00"
     ,
-      name: "Chuck Norris"
-      time: "13h00"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
-      twitter: "littlechuck"
+      name: "Call 4 Paperz"
+      time: "13h50"
+      site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+          title: "Palestra"
     ,
-      name: "Steve Jobs"
-      time: "14h00"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      twitter: "stevie"
+      name: "Jean Carlo Emer"
+      time: "14h50"
+      photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=100"
+      company: "Code Miner 42"
+      site: "http://jcemer.com"
       presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        title: "O Javascript dos novos tempos"
+        description: ""
     ,
       name: "Coffee-break"
-      time: "15h00"
+      time: "15h50"
     ,
-      name: "Mark Zuckerberg"
-      time: "16h00"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
-      twitter: "zuck"
+      name: "Jaydson Gomes"
+      time: "16h15"
+      photo: "http://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?s=100"
+      company: "Terra"
+      site: "http://jaydson.org"
       presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        title: "A definir"
+        description: ""
     ,
-      name: "Steve Wozniak"
-      time: "17h00"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      twitter: "woz"
+      name: "Call 4 Paperz"
+      time: "17h15"
+      site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+          title: "Palestra"
+    ,
+      name: "Encerramento"
+      time: "18h15"
     ]
 
     # List of Sponsors
@@ -138,8 +132,4 @@ module.exports =
       name: "BrazilJS"
       logo: "partners/braziljs.png"
       url: "http://braziljs.org"
-    ,
-      name: "Gonow"
-      logo: "partners/gonow.png"
-      url: "http://www.gonow.com.br"
     ]

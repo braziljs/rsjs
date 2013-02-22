@@ -1,6 +1,8 @@
 <div class="row">
+    <p class="warning">Aguarde, inscrições em breve.</p>
+    <!--
     <div class="box">
-        <p>Primeiro lote na faixa R$ 50,00</p>
+        <p>Primeiro lote na faixa <%= @conf.price %></p>
         <a href="#" class="button">Inscreva-se</a>
     </div>
     <div class="box">
@@ -9,4 +11,5 @@
             Faça parte deste evento e aproveite o melhor do <i>network</i> do sul do país.
         </p>
     </div>
+    -->
 </div>
