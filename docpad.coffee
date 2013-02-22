@@ -20,7 +20,7 @@ module.exports =
     # Site info
     site:
       url: "http://rsjs.org"
-      googleanalytics: "UA-XXXXXX-X"
+      googleanalytics: "UA-29193339-1"
       images:
         facebook: "http://braziljs.org/img/fb-share.jpg"
 
@@ -121,10 +121,6 @@ module.exports =
       name: "Grifo"
       logo: "sponsors/grifo.png"
       url: "http://gri.fo"
-    ,
-      name: "Terra"
-      logo: "sponsors/terra.png"
-      url: "http://terra.com.br"
     ]
 
     # List of Partners
