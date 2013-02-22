@@ -407,7 +407,8 @@ section.contact
         display: none
 @media only screen and (max-width: 550px)
     body
-        font-size: 12px
+        font-size: 14px
+
     .header
         height: auto
         .sidebar
@@ -419,12 +420,25 @@ section.contact
         vhidden()
         right: auto
     section
+        padding-left: 1em
+        padding-right: 1em
         .box
             column: 6
             text-align: left
             ~ .box
                 margin-top: gutterwidth * .5
     section.about
+        .emphasis
+            width: auto
+            margin-top: 4em
+            br
+                display: none
+        .box
+            text-align: center
+            br
+                display: none
+        .text p
+            display: inline
         .social-box
             display: none
     section.location
