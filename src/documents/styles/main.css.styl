@@ -84,9 +84,9 @@ a
     0%
         transform: rotate(0)
     16%
-        transform: rotate(10deg)
+        transform: rotate(10deg) translate(0px, 10px)
     28%
-        transform: rotate(-4deg)
+        transform: rotate(-3deg)
     40%
         transform: rotate(0)
 
@@ -135,11 +135,12 @@ a
             letter-spacing: -1px 
 
         .rhino
-            absolute: top bottom
-            left: 0
-            right: 0
-
-            background: url('../images/rhino.png') -250px 0 no-repeat
+            width: 66px
+            height: 84px
+            background: url('../images/rhino.png') -220px -80px no-repeat
+            position: absolute
+            top: 84px
+            left: 165px
 
         a:hover .rhino
             transform-origin: 60% 50%
@@ -455,7 +456,10 @@ section.contact
             &:before
                 content: attr(data-time)
                 display: block
-
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+    .header .logo, .header .logo .rhino
+        background-image: url('../images/rhino@2x.png')
+        background-size: 290px 200px
 
 // Print
 // ===========
