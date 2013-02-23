@@ -39,6 +39,7 @@
     padding-top: 0;
 }
 
+.fan_box .pls,
 .fan_box .total_plus {
     display: none;
 }
