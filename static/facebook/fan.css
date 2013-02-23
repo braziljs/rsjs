@@ -39,8 +39,8 @@
     padding-top: 0;
 }
 
-.fan_box .pls,
-.fan_box .total_plus {
+.fan_box .connections .total,
+.fan_box .connections .total_plus {
     display: none;
 }
 
