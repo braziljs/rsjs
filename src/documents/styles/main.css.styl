@@ -11,6 +11,7 @@
 // Core
 // ===========
 .wrapper
+    width: 94% // improve mobile margin
     max-width: 732px
     margin: 0 auto
     position: relative
@@ -407,7 +408,7 @@ section.contact
         display: none
 @media only screen and (max-width: 550px)
     body
-        font-size: 12px
+        font-size: medium
     .header
         height: auto
         .sidebar
@@ -422,9 +423,14 @@ section.contact
         .box
             column: 6
             text-align: left
+            br
+                display: none
             ~ .box
                 margin-top: gutterwidth * .5
     section.about
+        .emphasis
+            br
+                display: none
         .social-box
             display: none
     section.location
