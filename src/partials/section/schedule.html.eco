@@ -13,11 +13,16 @@
             <th class="time"><%= slot.time %></th>
             <td class="slot" data-time="<%= slot.time %>">
                 <h2 class="talk subtitle"><%= slot.presentation.title %></h2>
-                <p class="speaker"><a href="<%= slot.site %>" rel="external"><%= slot.name %></a></p>
+                <p class="bar">
+                    <a href="<%= slot.site %>" class="speaker" rel="external"><%= slot.name %></a>
+                    <% if slot.company: %>
+                    - <a href="<%= slot.company_site %>" class="company" rel="external"><%= slot.company %></a>
+                    <% end %>
+                </p>
                 <% if slot.photo: %>
                 <div class="photo"><img src="<%= slot.photo %>" width="92" alt="<%= slot.name %>"></div>
                 <% end %>
-                <p><%= slot.presentation.description %></p>
+                <p><%- slot.presentation.description %></p>
             </td>
         </tr>
         <% else: %>
