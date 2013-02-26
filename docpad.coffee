@@ -59,6 +59,7 @@ module.exports =
       time: "09h00"
       photo: "http://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?s=100"
       company: "Terra"
+      company_site: "http://terra.com.br"
       site: "http://felipenmoura.org"
       presentation:
         title: "A definir"
@@ -88,11 +89,12 @@ module.exports =
       name: "Jean Carlo Emer"
       time: "14h50"
       photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=100"
-      company: "Code Miner 42"
+      company: "Codeminer 42"
+      company_site: "http://codeminer42.com"
       site: "http://jcemer.com"
       presentation:
         title: "O Javascript dos novos tempos"
-        description: ""
+        description: "Uma palestra para aqueles que querem adentrar o universo das bibliotecas e frameworks <b>open source</b>.<br>Guia para entender código Javascript baseado em padrões e se jogar no <b>Node.js</b> e seu gerenciador de pacotes."
     ,
       name: "Coffee-break"
       time: "15h50"
@@ -101,6 +103,7 @@ module.exports =
       time: "16h15"
       photo: "http://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?s=100"
       company: "Terra"
+      company_site: "http://terra.com.br"
       site: "http://jaydson.org"
       presentation:
         title: "A definir"
