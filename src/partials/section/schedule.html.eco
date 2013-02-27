@@ -1,4 +1,3 @@
-<p class="warning">Programação sujeita a alterações.</p>
 <table>
     <thead>
         <tr>
@@ -34,3 +33,4 @@
     <% end %>
     </tbody>
 </table>
+<p class="warning">Programação sujeita a alterações.</p>
