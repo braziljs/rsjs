@@ -62,8 +62,8 @@ module.exports =
       company_site: "http://terra.com.br"
       site: "http://felipenmoura.org"
       presentation:
-        title: "A definir"
-        description: ""
+        title: "A interface web"
+        description: "Uma <b>interface</b> é aquele elemento pelo qual atingimos algum objetivo. A forma como interagimos com o mundo é rica em interfaces, os elevadores, por exemplo, são interfaces que utilizamos para chegar em um andar mais alto, tal como as escadas. Como se vê, há interfaces melhores que outras.<br> Estamos em um momento em que esta enorme interface que é a <b>web</b> está evoluindo e podemos usar as novas tecnologias para isto. Vamos abordar como construir interfaces diferenciadas com <b>Canvas</b>, <b>SVG</b>, <b>CSS3</b>, <b>HTML5</b>, <b>video</b> e <b>WebGL</b>, utilizando de efeitos interessantes e animações, mas sempre lembrando de acessibilidade e performance!"
     ,
       name: "Call 4 Paperz"
       time: "10h00"
@@ -106,8 +106,8 @@ module.exports =
       company_site: "http://terra.com.br"
       site: "http://jaydson.org"
       presentation:
-        title: "A definir"
-        description: ""
+        title: "JavaScript everywhere"
+        description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em <b>todos os lugares</b>. PCs, servidores, celulares, robôs, espaçonaves, geladeiras, torradeiras e onde você menos imagina."
     ,
       name: "Call 4 Paperz"
       time: "17h15"

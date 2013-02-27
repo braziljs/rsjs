@@ -20,9 +20,9 @@
                     <% end %>
                 </p>
                 <% if slot.photo: %>
-                <div class="photo"><img src="<%= slot.photo %>" width="92" alt="<%= slot.name %>"></div>
+                <div class="photo"><img src="<%= slot.photo %>" alt="<%= slot.name %>"></div>
                 <% end %>
-                <p><%- slot.presentation.description %></p>
+                <p class="presentation"><%- slot.presentation.description %></p>
             </td>
         </tr>
         <% else: %>
