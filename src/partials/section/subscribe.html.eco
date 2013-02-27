@@ -1,15 +1,12 @@
 <div class="row">
-    <p class="warning">Aguarde, inscrições em breve.</p>
-    <!--
     <div class="box">
-        <p>Primeiro lote na faixa <%= @conf.price %></p>
-        <a href="#" class="button">Inscreva-se</a>
+        <p>Primeiro lote na faixa: <b><%= @conf.price %></b></p>
+        <a href="http://eventick.com.br/rsjs-2013" class="button" rel="external">Inscreva-se</a>
     </div>
     <div class="box">
         <p>
-            O evento contará com oito palestras e dois <i>coffee-breaks</i>.
-            Faça parte deste evento e aproveite o melhor do <i>network</i> do sul do país.
+            O evento contará com sete palestras.<br>
+            Faça parte deste evento e aproveite o melhor <i>networking</i> do sul do país.
         </p>
     </div>
-    -->
 </div>

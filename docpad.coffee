@@ -9,7 +9,7 @@ module.exports =
       slogan: "Gaúcho com laço montado em rinoceronte"
       description: "O maior evento de Javascript do sul do país"
       date: "2013-03-23T09:00+03:00"
-      price: ""
+      price: "R$ 45,00"
       venue: "Nós Coworking"
       venueLink: "http://www.noscoworking.com.br"
       mall: "Shopping Total"
