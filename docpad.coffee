@@ -57,8 +57,14 @@ module.exports =
       name: "Check-in"
       time: "08h40"
     ,
-      name: "Felipe Nascimento"
+      name: "Call 4 Paperz"
       time: "09h00"
+      site: "http://call4paperz.com/events/rsjs-2013"
+      presentation:
+          title: "Palestra"
+    ,
+      name: "Felipe Nascimento"
+      time: "10h00"
       photo: "http://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?s=100"
       company: "Terra"
       company_site: "http://terra.com.br"
@@ -67,17 +73,15 @@ module.exports =
         title: "A interface web"
         description: "Uma <b>interface</b> é aquele elemento pelo qual atingimos algum objetivo. A forma como interagimos com o mundo é rica em interfaces, os elevadores, por exemplo, são interfaces que utilizamos para chegar em um andar mais alto, tal como as escadas. Como se vê, há interfaces melhores que outras.<br> Estamos em um momento em que esta enorme interface que é a <b>web</b> está evoluindo e podemos usar as novas tecnologias para isto. Vamos abordar como construir interfaces diferenciadas com <b>Canvas</b>, <b>SVG</b>, <b>CSS3</b>, <b>HTML5</b>, <b>video</b> e <b>WebGL</b>, utilizando de efeitos interessantes e animações, mas sempre lembrando de acessibilidade e performance!"
     ,
-      name: "Call 4 Paperz"
-      time: "10h00"
-      site: "http://call4paperz.com/events/rsjs-2013"
-      presentation:
-          title: "Palestra"
-    ,
-      name: "Call 4 Paperz"
+      name: "Caio Gondim"
       time: "11h00"
-      site: "http://call4paperz.com/events/rsjs-2013"
+      photo: "http://secure.gravatar.com/avatar/212b8b6589f7e98dae14e6517101f427?s=100"
+      company: "Globo.com"
+      company_site: "http://globo.com"
+      site: "http://caiogondim.com"
       presentation:
-          title: "Palestra"
+        title: "Dissecando sua aplicação com Chrome Dev Tools"
+        description: "Vamos abrir sua <b>app</b> ao meio e analisar de forma minunciosa toda sua <b>anatomia</b>."
     ,
       name: "Almoço"
       time: "12h00"
