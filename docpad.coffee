@@ -137,4 +137,8 @@ module.exports =
       name: "BrazilJS"
       logo: "partners/braziljs.png"
       url: "http://braziljs.org"
+    ,
+      name: "Globo.com"
+      logo: "partners/globocom.png"
+      url: "http://globo.com"
     ]
