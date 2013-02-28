@@ -75,7 +75,7 @@ module.exports =
     ,
       name: "Caio Gondim"
       time: "11h00"
-      photo: "http://secure.gravatar.com/avatar/212b8b6589f7e98dae14e6517101f427?s=100"
+      photo: "http://f.cl.ly/items/00362R173j0y2G203b0Q/Image%202013.02.28%2011:41:42.png"
       company: "Globo.com"
       company_site: "http://globo.com"
       site: "http://caiogondim.com"
