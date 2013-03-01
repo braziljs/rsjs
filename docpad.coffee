@@ -7,7 +7,7 @@ module.exports =
     conf:
       name: "RSJS"
       slogan: "Gaúcho com laço montado em rinoceronte"
-      description: "O maior evento de Javascript do sul do país"
+      description: "Segunda edição do maior evento de Javascript do sul do país."
       date: "2013-03-23T09:00+03:00"
       price: "R$ 45,00"
       venue: "Nós Coworking"
