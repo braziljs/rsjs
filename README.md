@@ -6,6 +6,7 @@ A front-end conference based in Porto Alegre, Rio Grande do Sul - Brazil.
 ## Getting Started
 
 ```sudo npm install -fg docpad@6.20```
+```sudo npm install```
 
 ```[sudo] docpad install```
 
