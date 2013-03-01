@@ -23,7 +23,6 @@ module.exports =
       googleanalytics: "UA-29193339-1"
       images:
         facebook: "http://rsjs.org/images/fb-share.jpg"
-        facebookOg: "http://rsjs.org/images/fb-ogimage.jpg"
 
     # Active sections on the website
     # to deactivate comment out with '#'

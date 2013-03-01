@@ -15,7 +15,7 @@
     <meta property="og:url" content="<%= @site.url %>">
     <meta property="og:title" content="<%= @conf.name %>">
     <meta property="og:description" content="<%= @conf.description %>">
-    <meta property="og:image" content="<%= @site.images.facebookOg %>">
+    <meta property="og:image" content="<%= @site.images.facebook %>">
     <!-- / facebook -->
 
     <script>
