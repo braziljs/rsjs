@@ -1,11 +1,9 @@
 <nav id="nav">
     <ul>
         <% for section in @sections : %>
-        <% if section isnt 'social-box' : %>
-        <li class="nav-item">
+        <li class="nav-item nav-item-<%= section %>">
             <a href="#<%= @labels[section].toLowerCase() %>" title="<%= @labels[section] %>"><%= @labels[section] %></a>
         </li>
-        <% end %>
         <% end %>
     </ul>
 </nav>
