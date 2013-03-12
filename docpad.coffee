@@ -84,11 +84,14 @@ module.exports =
       name: "Almoço"
       time: "12h00"
     ,
-      name: "Call 4 Paperz"
+      name: "Gabriel Zigolis"
       time: "13h30"
-      site: "http://call4paperz.com/events/rsjs-2013"
+      photo: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/4/000/159/235/15129ec.jpg"
+      company: "Grupo RBS"
+      company_site: "http://rbs.com.br"
       presentation:
-          title: "Palestra"
+        title: "jQuery Mobile"
+        description: "O <b>jQuery Mobile</b> é uma ótima alternativa para o desenvolvimento multiplataforma de Mobile Devices. Tendo como base o popular e poderoso jQuery e o jQuery UI, trabalharemos com esse produtivo framework, utilizando desde simples recursos à complexas interações com os devices, além de diversos <b>cases de sucesso</b> implementados."
     ,
       name: "Jean Carlo Emer"
       time: "14h30"
