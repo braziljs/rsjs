@@ -112,7 +112,7 @@ module.exports =
       site: "http://ricardo.cc"
       presentation:
         title: "Construindo aplicações web com Backbone e node.js"
-        description: "Descubra como utilizar Backbone.js para criar aplicações client-side e implementar um backend em node. Conheça o padrão MV*, event emitters, delegação de eventos e APIs REST/JSON, e boas práticas relacionadas a backbone e underscore.js"
+        description: "Descubra como utilizar Backbone.js para criar aplicações <b>client-side</b> e implementar um <b>backend</b> em node. Conheça o padrão MV*, event emitters, delegação de eventos e APIs REST/JSON, e boas práticas relacionadas a <b>backbone</b> e <b>underscore.js</b>"
     ,
       name: "Coffee-break"
       time: "16h30"
@@ -127,11 +127,15 @@ module.exports =
         title: "JavaScript everywhere"
         description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em <b>todos os lugares</b>. PCs, servidores, celulares, robôs, espaçonaves, geladeiras, torradeiras e onde você menos imagina."
     ,
-      name: "Call 4 Paperz"
+      name: "Almir Filho"
       time: "18h00"
-      site: "http://call4paperz.com/events/rsjs-2013"
+      photo: "http://secure.gravatar.com/avatar/7eacbf96fbde52dfe00cc77b225804d9?s=100"
+      company: "Globo"
+      company_site: "http://globo.com"
+      site: "http://almirfilho.com"
       presentation:
-          title: "Palestra"
+        title: "Web Audio Hero"
+        description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: <b>Web Audio API</b> – que nos permitirá quebrar o silêncio da web sem limitações."
     ,
       name: "Encerramento"
       time: "19h00"
