@@ -56,7 +56,7 @@ module.exports =
       time: "08h30"
     ,
       name: "Caio Gondim"
-      time: "08h50"
+      time: "09h15"
       photo: "http://f.cl.ly/items/00362R173j0y2G203b0Q/Image%202013.02.28%2011:41:42.png"
       company: "Globo.com"
       company_site: "http://globo.com"
@@ -66,13 +66,13 @@ module.exports =
         description: "Vamos abrir sua <b>app</b> ao meio e analisar de forma minunciosa toda sua <b>anatomia</b>."
     ,
       name: "Call 4 Paperz"
-      time: "09h45"
+      time: "10h10"
       site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
           title: "Palestra"
     ,
       name: "Felipe Nascimento"
-      time: "10h40"
+      time: "11h05"
       photo: "http://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?s=100"
       company: "Terra"
       company_site: "http://terra.com.br"
@@ -82,7 +82,7 @@ module.exports =
         description: "Uma <b>interface</b> é aquele elemento pelo qual atingimos algum objetivo. A forma como interagimos com o mundo é rica em interfaces, os elevadores, por exemplo, são interfaces que utilizamos para chegar em um andar mais alto, tal como as escadas. Como se vê, há interfaces melhores que outras.<br> Estamos em um momento em que esta enorme interface que é a <b>web</b> está evoluindo e podemos usar as novas tecnologias para isto. Vamos abordar como construir interfaces diferenciadas com <b>Canvas</b>, <b>SVG</b>, <b>CSS3</b>, <b>HTML5</b>, <b>video</b> e <b>WebGL</b>, utilizando de efeitos interessantes e animações, mas sempre lembrando de acessibilidade e performance!"
     ,
       name: "Almoço"
-      time: "11h35"
+      time: "12h00"
     ,
       name: "Call 4 Paperz"
       time: "13h30"
@@ -100,15 +100,13 @@ module.exports =
         title: "O Javascript dos novos tempos"
         description: "Uma palestra para aqueles que querem adentrar o universo das bibliotecas e frameworks <b>open source</b>.<br>Guia para entender código Javascript baseado em padrões e se jogar no <b>Node.js</b> e seu gerenciador de pacotes."
     ,
-      name: "Jean Carlo Emer"
+      name: "Ricardo Tomasi"
       time: "15h20"
-      photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=100"
-      company: "Codeminer 42"
-      company_site: "http://codeminer42.com"
-      site: "http://jcemer.com"
+      photo: "http://secure.gravatar.com/avatar/47923b1f334d8e3f7a00506ac3c7a636?s=100"
+      site: "http://ricardo.cc"
       presentation:
-        title: "O Javascript dos novos tempos"
-        description: "Uma palestra para aqueles que querem adentrar o universo das bibliotecas e frameworks <b>open source</b>.<br>Guia para entender código Javascript baseado em padrões e se jogar no <b>Node.js</b> e seu gerenciador de pacotes."
+        title: "Construindo aplicações web com Backbone e node.js"
+        description: "Descubra como utilizar Backbone.js para criar aplicações client-side e implementar um backend em node. Conheça o padrão MV*, event emitters, delegação de eventos e APIs REST/JSON, e boas práticas relacionadas a backbone e underscore.js"
     ,
       name: "Coffee-break"
       time: "16h15"
