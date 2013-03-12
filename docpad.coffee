@@ -56,7 +56,7 @@ module.exports =
       time: "08h30"
     ,
       name: "Caio Gondim"
-      time: "09h15"
+      time: "09h00"
       photo: "http://f.cl.ly/items/00362R173j0y2G203b0Q/Image%202013.02.28%2011:41:42.png"
       company: "Globo.com"
       company_site: "http://globo.com"
@@ -66,13 +66,13 @@ module.exports =
         description: "Vamos abrir sua <b>app</b> ao meio e analisar de forma minunciosa toda sua <b>anatomia</b>."
     ,
       name: "Call 4 Paperz"
-      time: "10h10"
+      time: "10h00"
       site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
           title: "Palestra"
     ,
       name: "Felipe Nascimento"
-      time: "11h05"
+      time: "11h00"
       photo: "http://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?s=100"
       company: "Terra"
       company_site: "http://terra.com.br"
@@ -91,7 +91,7 @@ module.exports =
           title: "Palestra"
     ,
       name: "Jean Carlo Emer"
-      time: "14h25"
+      time: "14h30"
       photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=100"
       company: "Codeminer 42"
       company_site: "http://codeminer42.com"
@@ -101,7 +101,7 @@ module.exports =
         description: "Uma palestra para aqueles que querem adentrar o universo das bibliotecas e frameworks <b>open source</b>.<br>Guia para entender código Javascript baseado em padrões e se jogar no <b>Node.js</b> e seu gerenciador de pacotes."
     ,
       name: "Ricardo Tomasi"
-      time: "15h20"
+      time: "15h30"
       photo: "http://secure.gravatar.com/avatar/47923b1f334d8e3f7a00506ac3c7a636?s=100"
       site: "http://ricardo.cc"
       presentation:
@@ -109,10 +109,10 @@ module.exports =
         description: "Descubra como utilizar Backbone.js para criar aplicações client-side e implementar um backend em node. Conheça o padrão MV*, event emitters, delegação de eventos e APIs REST/JSON, e boas práticas relacionadas a backbone e underscore.js"
     ,
       name: "Coffee-break"
-      time: "16h15"
+      time: "16h30"
     ,
       name: "Jaydson Gomes"
-      time: "16h45"
+      time: "17h00"
       photo: "http://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?s=100"
       company: "Terra"
       company_site: "http://terra.com.br"
@@ -122,13 +122,13 @@ module.exports =
         description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em <b>todos os lugares</b>. PCs, servidores, celulares, robôs, espaçonaves, geladeiras, torradeiras e onde você menos imagina."
     ,
       name: "Call 4 Paperz"
-      time: "17h40"
+      time: "18h00"
       site: "http://call4paperz.com/events/rsjs-2013"
       presentation:
           title: "Palestra"
     ,
       name: "Encerramento"
-      time: "18h35"
+      time: "19h00"
     ]
 
     # List of Sponsors
