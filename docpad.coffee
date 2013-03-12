@@ -65,11 +65,14 @@ module.exports =
         title: "Dissecando sua aplicação com Chrome Dev Tools"
         description: "Vamos abrir sua <b>app</b> ao meio e analisar de forma minunciosa toda sua <b>anatomia</b>."
     ,
-      name: "Call 4 Paperz"
+      name: "Rafael Specht da Silva"
       time: "10h00"
-      site: "http://call4paperz.com/events/rsjs-2013"
+      photo: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/0d3/27e/36126d3.jpg"
+      company: "Grupo RBS"
+      company_site: "http://rbs.com.br"
       presentation:
-          title: "Palestra"
+        title: "Desenvolvimento orientado a testes com Jasmine"
+        description: "Muita gente diz que Javascript é bobo, feio, não tem padronização e é a ruína de sistemas complexos. Quer ajudá-las a mudar de opinião? Testar pode ser um bom começo! <b>Testes são essenciais</b> para assegurar a integridade do seu trabalho, curar a síndrome do medo de manutenção em código legado e permitir que você durma mais tranquilo. Saiba como usar <b>Jasmine</b>, criar mocks das Views e testar o DOM"
     ,
       name: "Felipe Nascimento"
       time: "11h00"
