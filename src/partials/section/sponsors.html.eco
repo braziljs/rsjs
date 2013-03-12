@@ -1,7 +1,7 @@
 <ul class="organizations">
     <% for sponsor in @sponsors: %>
     <li itemscope itemtype="http://schema.org/Organization">
-        <a href="<%= sponsor.url %>" itemprop="url">
+        <a href="<%= sponsor.url %>" itemprop="url" rel="external">
             <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" itemprop="image">
         </a>
     </li>

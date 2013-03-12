@@ -147,4 +147,8 @@ module.exports =
       name: "Globo.com"
       logo: "partners/globocom.png"
       url: "http://globo.com"
+    ,
+      name: "Eventick"
+      logo: "partners/eventick.png"
+      url: "http://eventick.com.br"
     ]
