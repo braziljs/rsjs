@@ -165,4 +165,8 @@ module.exports =
       name: "Eventick"
       logo: "partners/eventick.png"
       url: "http://eventick.com.br"
+    ,
+      name: "Opera"
+      logo: "partners/opera.png"
+      url: "http://opera.com"
     ]
