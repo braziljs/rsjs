@@ -146,6 +146,10 @@ module.exports =
       name: "Grifo"
       logo: "sponsors/grifo.png"
       url: "http://gri.fo"
+    ,
+      name: "Grupo RBS"
+      logo: "sponsors/rbs.png"
+      url: "http://www.gruporbs.com.br"
     ]
 
     # List of Partners
