@@ -150,6 +150,10 @@ module.exports =
       name: "Grupo RBS"
       logo: "sponsors/rbs.png"
       url: "http://www.gruporbs.com.br"
+    ,
+      name: "Terra"
+      logo: "sponsors/terra.png"
+      url: "http://www.terra.com.br"
     ]
 
     # List of Partners
