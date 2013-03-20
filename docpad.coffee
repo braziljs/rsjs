@@ -154,6 +154,10 @@ module.exports =
       name: "Terra"
       logo: "sponsors/terra.png"
       url: "http://www.terra.com.br"
+    ,
+      name: "E-Core"
+      logo: "sponsors/e-core.png"
+      url: "http://www.ecore.com.br"
     ]
 
     # List of Partners
