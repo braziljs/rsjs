@@ -9,7 +9,7 @@ module.exports =
       slogan: "Gaúcho com laço montado em rinoceronte"
       description: "Segunda edição do maior evento de Javascript do sul do país."
       date: "2013-03-23T09:00+03:00"
-      price: "R$ 65,00"
+      price: "R$ 80,00"
       venue: "Hotel Continental"
       venueLink: "http://www.hoteiscontinental.com.br"
       mapAddress: "Largo Vespasiano Julioveppo, 77, Centro, Porto Alegre, RS"
