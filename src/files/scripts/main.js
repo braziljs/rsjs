@@ -61,6 +61,29 @@ window.requestAnimationFrame =
         })
     }
 
+    // Rating widget (async init)
+    // ===========
+    window.RW_Async_Init = function () {
+        RW.init({
+            uid: 'A01EB0C8A2FD7BE845E5EFFAEDDDC5E5'
+          , huid: '94876'
+          , options: {
+                advanced: {
+                    nero: {
+                        showDislike: false
+                    }
+                  , font: {
+                        italic: true
+                      , type: 'arial'
+                    }
+                }
+              , theme: 'thumbs_1'
+              , type: 'nero'
+            }
+        })
+        RW.render()
+    }
+
     // Scroll smooth
     // ===========
     ;(function () {

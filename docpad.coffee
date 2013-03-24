@@ -55,24 +55,26 @@ module.exports =
       name: "Check-in"
       time: "08h30"
     ,
-      name: "Caio Gondim"
+      name: "Rafael Specht da Silva"
       time: "09h00"
+      photo: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/0d3/27e/36126d3.jpg"
+      company: "Grupo RBS"
+      company_site: "http://rbs.com.br"
+      presentation:
+        title: "Desenvolvimento orientado a testes com Jasmine"
+        rating_id: 1
+        description: "Muita gente diz que Javascript é bobo, feio, não tem padronização e é a ruína de sistemas complexos. Quer ajudá-las a mudar de opinião? Testar pode ser um bom começo! <b>Testes são essenciais</b> para assegurar a integridade do seu trabalho, curar a síndrome do medo de manutenção em código legado e permitir que você durma mais tranquilo. Saiba como usar <b>Jasmine</b>, criar mocks das Views e testar o DOM"
+    ,
+      name: "Caio Gondim"
+      time: "10h00"
       photo: "http://f.cl.ly/items/00362R173j0y2G203b0Q/Image%202013.02.28%2011:41:42.png"
       company: "Globo.com"
       company_site: "http://globo.com"
       site: "http://caiogondim.com"
       presentation:
         title: "Dissecando sua aplicação com Chrome Dev Tools"
+        rating_id: 2
         description: "Vamos abrir sua <b>app</b> ao meio e analisar de forma minunciosa toda sua <b>anatomia</b>."
-    ,
-      name: "Rafael Specht da Silva"
-      time: "10h00"
-      photo: "http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/0d3/27e/36126d3.jpg"
-      company: "Grupo RBS"
-      company_site: "http://rbs.com.br"
-      presentation:
-        title: "Desenvolvimento orientado a testes com Jasmine"
-        description: "Muita gente diz que Javascript é bobo, feio, não tem padronização e é a ruína de sistemas complexos. Quer ajudá-las a mudar de opinião? Testar pode ser um bom começo! <b>Testes são essenciais</b> para assegurar a integridade do seu trabalho, curar a síndrome do medo de manutenção em código legado e permitir que você durma mais tranquilo. Saiba como usar <b>Jasmine</b>, criar mocks das Views e testar o DOM"
     ,
       name: "Felipe Nascimento"
       time: "11h00"
@@ -82,6 +84,7 @@ module.exports =
       site: "http://felipenmoura.org"
       presentation:
         title: "A interface web"
+        rating_id: 3
         description: "Uma <b>interface</b> é aquele elemento pelo qual atingimos algum objetivo. A forma como interagimos com o mundo é rica em interfaces, os elevadores, por exemplo, são interfaces que utilizamos para chegar em um andar mais alto, tal como as escadas. Como se vê, há interfaces melhores que outras.<br> Estamos em um momento em que esta enorme interface que é a <b>web</b> está evoluindo e podemos usar as novas tecnologias para isto. Vamos abordar como construir interfaces diferenciadas com <b>Canvas</b>, <b>SVG</b>, <b>CSS3</b>, <b>HTML5</b>, <b>video</b> e <b>WebGL</b>, utilizando de efeitos interessantes e animações, mas sempre lembrando de acessibilidade e performance!"
     ,
       name: "Almoço"
@@ -94,6 +97,7 @@ module.exports =
       company_site: "http://rbs.com.br"
       presentation:
         title: "jQuery Mobile"
+        rating_id: 4
         description: "O <b>jQuery Mobile</b> é uma ótima alternativa para o desenvolvimento multiplataforma de Mobile Devices. Tendo como base o popular e poderoso jQuery e o jQuery UI, trabalharemos com esse produtivo framework, utilizando desde simples recursos à complexas interações com os devices, além de diversos <b>cases de sucesso</b> implementados."
     ,
       name: "Jean Carlo Emer"
@@ -104,6 +108,7 @@ module.exports =
       site: "http://jcemer.com"
       presentation:
         title: "O Javascript dos novos tempos"
+        rating_id: 5
         description: "Uma palestra para aqueles que querem adentrar o universo das bibliotecas e frameworks <b>open source</b>.<br>Guia para entender código Javascript baseado em padrões e se jogar no <b>Node.js</b> e seu gerenciador de pacotes."
     ,
       name: "Ricardo Tomasi"
@@ -112,6 +117,7 @@ module.exports =
       site: "http://ricardo.cc"
       presentation:
         title: "Construindo aplicações web com Backbone e node.js"
+        rating_id: 6
         description: "Descubra como utilizar Backbone.js para criar aplicações <b>client-side</b> e implementar um <b>backend</b> em node. Conheça o padrão MV*, event emitters, delegação de eventos e APIs REST/JSON, e boas práticas relacionadas a <b>backbone</b> e <b>underscore.js</b>"
     ,
       name: "Coffee-break"
@@ -125,6 +131,7 @@ module.exports =
       site: "http://jaydson.org"
       presentation:
         title: "JavaScript everywhere"
+        rating_id: 7
         description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em <b>todos os lugares</b>. PCs, servidores, celulares, robôs, espaçonaves, geladeiras, torradeiras e onde você menos imagina."
     ,
       name: "Almir Filho"
@@ -135,6 +142,7 @@ module.exports =
       site: "http://almirfilho.com"
       presentation:
         title: "Web Audio Hero"
+        rating_id: 8
         description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: <b>Web Audio API</b> – que nos permitirá quebrar o silêncio da web sem limitações."
     ,
       name: "Encerramento"

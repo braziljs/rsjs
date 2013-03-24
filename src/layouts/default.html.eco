@@ -73,6 +73,7 @@
         </div>
     </div>
 
+    <div class="rw-js-container"></div>
     <script src="scripts/rye-0.0.1.js"></script>
     <script src="scripts/main.js"></script>
     <script>
@@ -82,6 +83,9 @@
 
             // google analytics
           , ('https:' == document.location.protocol ? 'ssl' : 'www') + '.google-analytics.com/ga.js'
+
+            // rating widget
+          , 'js.rating-widget.com/external.min.js?t=js'
         ])
     </script>
 </body>

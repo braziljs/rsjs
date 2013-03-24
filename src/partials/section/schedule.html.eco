@@ -21,7 +21,10 @@
                 <% if slot.photo: %>
                 <div class="photo"><img src="<%= slot.photo %>" alt="<%= slot.name %>"></div>
                 <% end %>
-                <p class="presentation"><%- slot.presentation.description %></p>
+                <div class="presentation">
+                    <p><%- slot.presentation.description %></p>
+                    <div class="rw-ui-container rw-urid-<%= slot.presentation.rating_id %>"></div>
+                </div>
             </td>
         </tr>
         <% else: %>
