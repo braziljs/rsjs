@@ -29,7 +29,7 @@ module.exports =
     # you can also change order here and it will reflect on page
     sections: [
       'about'
-      'subscribe'
+      # 'subscribe'
       'schedule'
       'location'
       'contact'
