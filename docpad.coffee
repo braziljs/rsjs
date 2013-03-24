@@ -136,6 +136,7 @@ module.exports =
         title: "JavaScript everywhere"
         rating_id: 7
         description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em <b>todos os lugares</b>. PCs, servidores, celulares, robôs, espaçonaves, geladeiras, torradeiras e onde você menos imagina."
+        slides: "http://jaydson.org/talks/js-everywhere-rsjs-2013"
     ,
       name: "Almir Filho"
       time: "18h00"
