@@ -73,12 +73,15 @@ window.requestAnimationFrame =
                         showDislike: false
                     }
                   , font: {
-                        italic: true
-                      , type: 'arial'
+                        type: 'arial'
+                    }
+                  , text: {
+                        vote: "voto"
+                      , votes: "votos"
                     }
                 }
-              , theme: 'thumbs_1'
-              , type: 'nero'
+              , theme: 'star_quartz'
+              , type: 'star'
             }
         })
         RW.render()
