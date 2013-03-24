@@ -86,6 +86,7 @@ module.exports =
         title: "A interface web"
         rating_id: 3
         description: "Uma <b>interface</b> é aquele elemento pelo qual atingimos algum objetivo. A forma como interagimos com o mundo é rica em interfaces, os elevadores, por exemplo, são interfaces que utilizamos para chegar em um andar mais alto, tal como as escadas. Como se vê, há interfaces melhores que outras.<br> Estamos em um momento em que esta enorme interface que é a <b>web</b> está evoluindo e podemos usar as novas tecnologias para isto. Vamos abordar como construir interfaces diferenciadas com <b>Canvas</b>, <b>SVG</b>, <b>CSS3</b>, <b>HTML5</b>, <b>video</b> e <b>WebGL</b>, utilizando de efeitos interessantes e animações, mas sempre lembrando de acessibilidade e performance!"
+        slides: "http://felipenmoura.org/talks/web-interface"
     ,
       name: "Almoço"
       time: "12h00"
@@ -99,6 +100,7 @@ module.exports =
         title: "jQuery Mobile"
         rating_id: 4
         description: "O <b>jQuery Mobile</b> é uma ótima alternativa para o desenvolvimento multiplataforma de Mobile Devices. Tendo como base o popular e poderoso jQuery e o jQuery UI, trabalharemos com esse produtivo framework, utilizando desde simples recursos à complexas interações com os devices, além de diversos <b>cases de sucesso</b> implementados."
+        slides: "http://www.zigolis.com.br/rsjs"
     ,
       name: "Jean Carlo Emer"
       time: "14h30"
@@ -110,6 +112,7 @@ module.exports =
         title: "O Javascript dos novos tempos"
         rating_id: 5
         description: "Uma palestra para aqueles que querem adentrar o universo das bibliotecas e frameworks <b>open source</b>.<br>Guia para entender código Javascript baseado em padrões e se jogar no <b>Node.js</b> e seu gerenciador de pacotes."
+        slides: "http://speakerdeck.com/jcemer/javascript-dos-novos-tempos"
     ,
       name: "Ricardo Tomasi"
       time: "15h30"
@@ -144,6 +147,7 @@ module.exports =
         title: "Web Audio Hero"
         rating_id: 8
         description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: <b>Web Audio API</b> – que nos permitirá quebrar o silêncio da web sem limitações."
+        slides: "http://speakerdeck.com/almirfilho/web-audio-hero"
     ,
       name: "Encerramento"
       time: "19h00"
