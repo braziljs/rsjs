@@ -64,6 +64,7 @@ module.exports =
         title: "Desenvolvimento orientado a testes com Jasmine"
         rating_id: 1
         description: "Muita gente diz que Javascript é bobo, feio, não tem padronização e é a ruína de sistemas complexos. Quer ajudá-las a mudar de opinião? Testar pode ser um bom começo! <b>Testes são essenciais</b> para assegurar a integridade do seu trabalho, curar a síndrome do medo de manutenção em código legado e permitir que você durma mais tranquilo. Saiba como usar <b>Jasmine</b>, criar mocks das Views e testar o DOM"
+        slides: "http://dailydevtips.com/rsjs"
     ,
       name: "Caio Gondim"
       time: "10h00"
