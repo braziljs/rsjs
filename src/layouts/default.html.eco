@@ -79,8 +79,8 @@
     </div>
 
     <div class="rw-js-container"></div>
-    <script src="scripts/rye-0.0.1.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="/scripts/rye-0.0.1.js"></script>
+    <script src="/scripts/main.js"></script>
     <script>
         Rye.loadScript([
             // google maps
