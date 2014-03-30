@@ -57,20 +57,20 @@ a
 .button
     display: inline-block
     line-height: 2.5
-    background: mix(#C2010C, #7D0109)
-    background: linear-gradient(#C2010C 30%, #7D0109)
+    background: mix(main-color, main-darkcolor)
+    background: linear-gradient(main-color 30%, main-darkcolor)
     color: white
     text-decoration: none
     font-size-em: 18px
     padding: 0 1.5em
     margin-top: 5px
-    border: 1px solid #91000A
+    border: 1px solid main-darkcolor
     border-radius: 5px
     transition: all .1s ease-out
-    text-shadow: 1px 1px 2px #7D0109
+    text-shadow: 1px 1px 2px main-darkcolor
     box-shadow: 0 2px 6px rgba(black, .2), inset 0 2px 3px rgba(white, .25)
     &:hover
-        text-shadow: 0 -1px 4px #7D0109
+        text-shadow: 0 -1px 4px main-darkcolor
         box-shadow: 0 2px 6px rgba(black, .2), inset 0 2px 3px rgba(black, .2)
     &:active
         transition: all 0 ease-out
@@ -95,7 +95,7 @@ a
     fixed: right top
     width: 140px
     height: 140px
-    replace-text: url('/images/fork-me.png')
+    replace-text: fork-me
     z-index: 200
 
 .header
@@ -383,13 +383,12 @@ section.contact
             padding: 0 2.75em
             max-width: 80%
             box-sizing: border-box
-            background: url('/images/crown.png') left center no-repeat
         a
             color: white
             font-weight: 700
             text-decoration: none
             &:hover
-                background: main-darkcolor
+                background: main-color
 
 // Braces
 // ===========
