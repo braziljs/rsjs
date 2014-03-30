@@ -1,19 +1,21 @@
 
 <header class="header">
     <h1 class="logo">
-        <a href="#landing" title="<%= @conf.slogan %>" itemprop="name">
+        <a href="#landing" title="<%= @document.conf.slogan %>" itemprop="name">
             <span class="rhino"></span>
-            <%= @conf.name %>
-            <span class="year">2013</span>
+            <%= @document.conf.name %>
+            <span class="year"><%= @document.conf.year %></span>
         </a>
     </h1>
 
     <div class="sidebar">
-        <time datetime="<%= @conf.date %>">
-            <span class="item weekday">sábado,</span>
-            <span class="item day">23 de março</span>
-            <span class="item year">2013</span>
+        <time datetime="<%= @document.conf.date %>">
+            <span class="item weekday"><%= @document.conf.weekday %></span>
+            <span class="item day"><%= @document.conf.day %></span>
+            <span class="item year"><%= @document.conf.year %></span>
         </time>
-        <p><a class="city" href="http://pt.wikipedia.org/wiki/Porto_Alegre" rel="external"><%= @conf.city %></a></p>
+        <p><a class="city" href="http://pt.wikipedia.org/wiki/Porto_Alegre" rel="external">
+            <%= @document.conf.city %>
+        </a></p>
     </div>
 </header>

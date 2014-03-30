@@ -1,5 +1,5 @@
 <ul class="organizations">
-    <% for partner in @partners: %>
+    <% for partner in @document.partners: %>
     <li itemscope itemtype="http://schema.org/Organization">
         <a href="<%= partner.url %>" itemprop="url" rel="external">
             <img src="<%= partner.logo %>" alt="<%= partner.name %>" itemprop="image">

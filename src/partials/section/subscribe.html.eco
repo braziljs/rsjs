@@ -1,6 +1,6 @@
 <div class="row">
     <div class="box">
-        <p>Último lote: <b><%= @conf.price %></b></p>
+        <p>Último lote: <b><%= @document.conf.price %></b></p>
         <a href="http://eventick.com.br/rsjs-2013" class="button" rel="external">Inscreva-se</a>
     </div>
     <div class="box">

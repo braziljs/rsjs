@@ -6,7 +6,7 @@
         </tr>
     </thead>
     <tbody>
-    <% for slot in @schedule: %>
+    <% for slot in @document.schedule: %>
         <% if slot.presentation: %>
         <tr>
             <th class="time"><%= slot.time %></th>

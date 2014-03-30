@@ -1,8 +1,8 @@
 <nav id="nav">
     <ul>
-        <% for section in @sections : %>
+        <% for section in @document.sections : %>
         <li class="nav-item nav-item-<%= section %>">
-            <a href="#<%= @labels[section].toLowerCase() %>" title="<%= @labels[section] %>"><%= @labels[section] %></a>
+            <a href="#<%= @document.labels[section].toLowerCase() %>" title="<%= @document.labels[section] %>"><%= @document.labels[section] %></a>
         </li>
         <% end %>
     </ul>

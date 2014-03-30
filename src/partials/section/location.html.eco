@@ -1,15 +1,15 @@
 <div class="row">
     <div class="frame map">
-       <div id="map-canvas" data-address="<%= @conf.mapAddress %>"></div>
-       <p><a href="http://maps.google.com?q=<%= encodeURI(@conf.mapAddress) %>" rel="external">ver no google maps</a></p>
+       <div id="map-canvas" data-address="<%= @document.conf.mapAddress %>"></div>
+       <p><a href="http://maps.google.com?q=<%= encodeURI(@document.conf.mapAddress) %>" rel="external">ver no google maps</a></p>
     </div>
 
     <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <p class="subtitle venue"><a href="<%= @conf.venueLink %>" rel="external"><%= @conf.venue %></a></p>
-        <p itemprop="streetAddress"><%= @conf.address %></p>
+        <p class="subtitle venue"><a href="<%= @document.conf.venueLink %>" rel="external"><%= @document.conf.venue %></a></p>
+        <p itemprop="streetAddress"><%= @document.conf.address %></p>
         <p>
-            <span itemprop="addressLocality"><%= @conf.city %></span>,
-            <span itemprop="addressRegion"> <%= @conf.state %></span>
+            <span itemprop="addressLocality"><%= @document.conf.city %></span>,
+            <span itemprop="addressRegion"> <%= @document.conf.state %></span>
         </p>
     </div>
 </div>
