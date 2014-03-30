@@ -2,11 +2,11 @@
 
 // Includes
 // ===========
-@import '~includes/mixins.styl'
-@import '~includes/variables.styl'
-@import '~includes/grid.styl'
+@import 'mixins.styl'
+@import 'variables.styl'
+@import 'grid.styl'
 
-@import '~includes/reset.styl'
+@import 'reset.styl'
 
 // Core
 // ===========
@@ -30,7 +30,7 @@ p
     margin-bottom: 5px
 
 a
-    color: red
+    color: main-color
     display: inline-block
     outline: none
 
@@ -52,7 +52,7 @@ a
             bottom: 0
             width: 1.2em
             content: ''
-            background: white url('../images/external-icon.png') center center no-repeat
+            background: white url('/images/external-icon.png') center center no-repeat
 
 .button
     display: inline-block
@@ -95,7 +95,7 @@ a
     fixed: right top
     width: 140px
     height: 140px
-    replace-text: url('../images/fork-me.png')
+    replace-text: url('/images/fork-me.png')
     z-index: 200
 
 .header
@@ -106,7 +106,7 @@ a
         margin: 0 auto
         position: relative
         z-index: 1
-        background: url('../images/rhino.png') no-repeat
+        background: url('/images/rhino.png') no-repeat
 
         a
             color: darkgrey
@@ -140,7 +140,7 @@ a
             left: 0
             right: 0
 
-            background: url('../images/rhino.png') -250px 0 no-repeat
+            background: url('/images/rhino.png') -250px 0 no-repeat
 
         a:hover .rhino
             transform-origin: 60% 50%
@@ -191,7 +191,7 @@ nav
         padding: 0 gutterwidth * .5
         color: grey
         text-decoration: none
-        border-bottom: 0 solid red
+        border-bottom: 0 solid main-color
         &.active, &:hover
             transition: all .1s ease-out
             border-bottom-width: 4px
@@ -383,13 +383,13 @@ section.contact
             padding: 0 2.75em
             max-width: 80%
             box-sizing: border-box
-            background: url('../images/crown.png') left center no-repeat
+            background: url('/images/crown.png') left center no-repeat
         a
             color: white
             font-weight: 700
             text-decoration: none
             &:hover
-                background: darkred
+                background: main-darkcolor
 
 // Braces
 // ===========
@@ -480,4 +480,4 @@ section.contact
 
 // Print
 // ===========
-@import '~includes/print.styl'
+@import 'print.styl'
