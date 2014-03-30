@@ -55,7 +55,12 @@
 
     <div class="content" id="content">
         <div class="wrapper">
-            <%- @content %>
+            <% for section in @document.sections : %>
+            <section class="<%= section %>" id="<%= @document.labels[section].toLowerCase() %>">
+                <h1 class="title"><%= @document.labels[section] %></h1>
+                <%- @tryPartial("#{section}.html.eco", ['section', @document.path], @) %>
+            </section>
+            <% end %>
         </div>
     </div>
 

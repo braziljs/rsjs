@@ -1,6 +1,6 @@
 ---
 layout: default
-path: 2014
+path: "2014"
 
 conf:
   name: "RSJS"
@@ -178,10 +178,3 @@ partners:
     logo: "partners/opera.png"
     url: "http://opera.com"
 ---
-
-<% for section in @document.sections : %>
-<section class="<%= section %>" id="<%= @document.labels[section].toLowerCase() %>">
-    <h1 class="title"><%= @document.labels[section] %></h1>
-    <%- @partial("section/#{section}.html.eco", @) %>
-</section>
-<% end %>
