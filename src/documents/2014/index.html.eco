@@ -11,17 +11,17 @@ conf:
   day: "17 de maio"
   year: "2014"
   price: "R$ 50,00"
-  venue: "Hotel Continental"
-  venueLink: "http://www.hoteiscontinental.com.br"
-  mapAddress: "Largo Vespasiano Julioveppo, 77, Centro, Porto Alegre, RS"
-  address: "Largo Vespasiano Julio Veppo, 77"
+  venue: "Senac"
+  venueLink: "http://portal.senacrs.com.br"
+  mapAddress: "Rua Cel. Genuíno, 130, Porto Alegre, RS"
+  address: "Rua Cel. Genuíno, 130"
   city: "Porto Alegre"
   state: "Rio Grande do Sul"
 
 sections:
   - 'about'
   #- 'subscribe'
-  - 'schedule'
+  #- 'schedule'
   - 'location'
   - 'contact'
 
@@ -144,37 +144,13 @@ schedule:
 
 sponsors:
   -
-    name: "Grifo"
-    logo: "sponsors/grifo.png"
-    url: "http://gri.fo"
-  -
-    name: "Grupo RBS"
-    logo: "sponsors/rbs.png"
-    url: "http://www.gruporbs.com.br"
-  - 
-    name: "Terra"
-    logo: "sponsors/terra.png"
-    url: "http://www.terra.com.br"
-  - 
-    name: "E-Core"
-    logo: "sponsors/e-core.png"
-    url: "http://www.ecore.com.br"
+    name: "Senac"
+    logo: "sponsors/senac.svg"
+    url: "http://portal.senacrs.com.br"
 
 partners:
   -
     name: "BrazilJS"
-    logo: "partners/braziljs.png"
+    logo: "partners/braziljs.svg"
     url: "http://braziljs.org"
-  -
-    name: "Globo.com"
-    logo: "partners/globocom.png"
-    url: "http://globo.com"
-  -
-    name: "Eventick"
-    logo: "partners/eventick.png"
-    url: "http://eventick.com.br"
-  -
-    name: "Opera"
-    logo: "partners/opera.png"
-    url: "http://opera.com"
 ---

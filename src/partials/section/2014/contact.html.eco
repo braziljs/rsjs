@@ -1,0 +1,17 @@
+<div class="row">    
+    <div class="box">
+        <p class="subtitle">contato@rsjs.org</p>
+    </div>
+    <div class="box">
+        <p>Estamos ai para o que precisar.<br> Chama se precisar de desconto para grupos<br> ou quiser patrocionar o evento.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="box">
+        <h2 class="subtitle">Organização</h2>
+        <p class="curator"><a href="http://felipenmoura.org" rel="external">Felipe Nascimento</a></p>
+        <p class="curator"><a href="http://jaydson.org" rel="external">Jaydson Gomes</a></p>
+        <p class="curator"><a href="http://jcemer.com" rel="external">Jean Carlo Emer</a></p>
+    </div>
+</div>

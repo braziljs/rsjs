@@ -2,7 +2,7 @@
     <% for sponsor in @document.sponsors: %>
     <li itemscope itemtype="http://schema.org/Organization">
         <a href="<%= sponsor.url %>" itemprop="url" rel="external">
-            <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" itemprop="image">
+            <img src="/<%= sponsor.logo %>" alt="<%= sponsor.name %>" itemprop="image">
         </a>
     </li>
     <% end %>
