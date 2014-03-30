@@ -12,7 +12,7 @@
 
     <!-- facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="<%= @site.url %>">
+    <meta property="og:url" content="<%= "#{@site.url}/#{@document.path}" %>">
     <meta property="og:title" content="<%= @document.conf.name %>">
     <meta property="og:description" content="<%= @document.conf.description %>">
     <meta property="og:image" content="<%= @site.images.facebook %>">
