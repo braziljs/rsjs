@@ -15,6 +15,7 @@
     "docpad-plugin-eco": "2.x",
     "docpad-plugin-marked": "2.x",
     "docpad-plugin-partials": "2.x",
-    "docpad-plugin-stylus": "2.x"
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-ghpages": "2.x"
   }
 }
