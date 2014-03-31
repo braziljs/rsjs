@@ -20,7 +20,7 @@ conf:
 
 sections:
   - 'about'
-  #- 'subscribe'
+  - 'subscribe'
   #- 'schedule'
   - 'location'
   - 'contact'
