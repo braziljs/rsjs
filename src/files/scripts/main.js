@@ -90,34 +90,47 @@ window.requestAnimationFrame =
     // Scroll smooth
     // ===========
     ;(function () {
-        var id, target, current, last
+        function Move(id) {
+            this.id   = id
+            this.dest = this.getElementPageTopPosition(id)
+            this.setAsRunner()            
+            this.run()
+        }
+        Move.currentRunner = 0
 
-        function step() {
-            current = window.pageYOffset - (window.pageYOffset - target) / 5
-            
+        Move.prototype.setAsRunner = function () {
+            this.runnerId = ++Move.currentRunner
+        }
+        Move.prototype.isCurrentRunner = function () {
+            return this.runnerId == Move.currentRunner
+        }
+
+        Move.prototype.getElementPageTopPosition = function (element) {
+            return $(element).get(0).getBoundingClientRect().top + window.pageYOffset
+        }
+
+        Move.prototype.run = function () {
+            if (!this.isCurrentRunner()) {
+                return
+            }
+            var current = window.pageYOffset - (window.pageYOffset - this.dest) / 5
+
             document.body.scrollTop = current
             document.documentElement.scrollTop = current
 
-            if (last != current) {
-                window.requestAnimationFrame(step)
+            if (this.previous != current) {
+                this.previous = current
+                window.requestAnimationFrame(this.run.bind(this))
             } else {
-                document.location.hash = id
-                delete step.runnig
+                document.location.hash = this.id
             }
-            last = current
         }
 
         $(document).on('click a[href*="#"]', function (event) {
             event.preventDefault()
             id = this.getAttribute('href')
-            target = $(id).get(0).getBoundingClientRect().top + window.pageYOffset
-            
-            if (!step.runnig) {
-                step.runnig = true
-                step()
-            }
+            new Move(id)
         })
-
     })()
 
     // Scroll spy
