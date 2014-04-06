@@ -38,6 +38,7 @@ labels:
   sponsors: "Patrocínio"
   partners: "Apoio"
 
+rating: true
 schedule:
   - 
     name: "Check-in"

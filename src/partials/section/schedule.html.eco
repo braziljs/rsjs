@@ -26,7 +26,9 @@
                     <% if slot.presentation.slides: %>
                     <a href="<%= slot.presentation.slides %>" class="button" rel="external">Slides</a>
                     <% end %>
+                    <% if @document.rating: %>
                     <div class="rw-ui-container rw-urid-<%= slot.presentation.rating_id %>"></div>
+                    <% end %>
                 </div>
             </td>
         </tr>

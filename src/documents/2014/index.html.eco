@@ -38,6 +38,7 @@ labels:
   sponsors: "Patrocínio"
   partners: "Apoio"
 
+rating: false
 schedule:
   - 
     name: "Abertura"
@@ -51,7 +52,7 @@ schedule:
     presentation:
       title: "Toda a sofisticação de Nunjucks"
       rating_id: 1
-      description: "Nunjucks é uma template engine para JavaScript, inspirada no jinja2(Python). A liguagem de template lhe permite utilizar blocos de código, macros e herança de templates, tudo de forma simples e rápida. Além disso, podemos mostrar um exemplo de sua aplicação na criação de sites com conteúdo estático, utilizando o Wintersmith."
+      description: "Nunjucks é uma <i>template engine</i> para JavaScript inspirada no jinja2 (Python). A liguagem de <i>template</i> lhe permite utilizar blocos de código, macros e herança de <i>templates</i>, tudo de forma simples e rápida. Além disso, iremos ver um exemplo de sua aplicação na criação de <i>sites</i> com conteúdo estático utilizando o Wintersmith."
   -
     name: "Lanche"
     time: "09h50"
@@ -64,7 +65,7 @@ schedule:
     presentation:
       title: "Programação Funcional e o JavaScript"
       rating_id: 2
-      description: 'Programação funcional é um paradigma bastante em voga nos dias de hoje. O conceito é bastante antigo, vem lá do Lisp, e é embasada em cima de avaliações de funções matemáticas. Discutiremos os conceitos da Programação Funcional, suas "regras de ouro" e algumas das funções mais úteis utilizando JavaScript.'
+      description: 'Programação Funcional é um paradigma bastante em voga nos dias de hoje. O conceito é bastante antigo, vem lá do Lisp, e é embasado em cima de avaliações de funções matemáticas. Discutiremos os conceitos da Programação Funcional, suas "regras de ouro" e algumas das funções mais úteis utilizando JavaScript.'
   -
     name: "Rafael Macedo"
     time: "11h00"
@@ -74,7 +75,7 @@ schedule:
     presentation:
       title: "Aplicações realtime com XMPP"
       rating_id: 3
-      description: "Conheça o poderoso protocolo XMPP na prática. XMPP é um protocolo extensível baseado em XML feito para aplicações em realtime e que necessitam de informação de presença que pode ser usado para mensagens instantâneas, vídeo-conferência, jogos entre outros. A palestra irá abordar conceito, e implementação de uma aplicação de exemplo usando javascript."
+      description: "Conheça o poderoso protocolo XMPP na prática. XMPP é um protocolo extensível baseado em XML feito para aplicações <i>realtime</i>. A tecnologia é útil para aplicações que necessitem informações de presença tais como as de mensagens instantâneas, vídeo-conferência, jogos, entre outros. A palestra irá abordar conceito e implementação de uma aplicação usando JavaScript."
   -
     name: "Rango"
     time: "12h00"
@@ -87,8 +88,7 @@ schedule:
     presentation:
       title: "Um mundo novo necessita de novas práticas: React"
       rating_id: 4
-      description: "Todos sabemos da boa prática de não misturar JavaScript e Markup, é um mantra que nos ajudou por muito tempo a trazer sanidade a projetos fadados ao caos. Mas React traz uma idéia controversa e perigosa, de que JavaScript e Markup são na verdade partes de um mesmo componente. Entenda como essa ideia, que a principio possa parecer blasfêmea, tem inúmeras vantagens quando usada em SPAs."
-      slides: "http://www.zigolis.com.br/rsjs"
+      description: "Todos sabemos da boa prática de não misturar JavaScript e Markup, é um mantra que nos ajudou por muito tempo a trazer sanidade a projetos fadados ao caos. React traz uma idéia controversa e perigosa de que JavaScript e Markup são na verdade partes de um mesmo componente. Entenda como essa ideia, que a princípio pode parecer blasfêmea, tem inúmeras vantagens quando usada em SPAs."
   -
     name: "Jaydson Gomes"
     time: "14h50"

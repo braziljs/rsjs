@@ -86,10 +86,14 @@
 
             // google analytics
           , ('https:' == document.location.protocol ? 'ssl' : 'www') + '.google-analytics.com/ga.js'
-
-            // rating widget
-          , 'js.rating-widget.com/external.min.js?t=js'
         ])
+
+        <% if @document.rating: %>
+        Rye.loadScript([
+            // rating widget
+            'js.rating-widget.com/external.min.js?t=js'
+        ])
+        <% end %>
     </script>
 </body>
 </html>
