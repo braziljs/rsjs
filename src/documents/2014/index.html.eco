@@ -45,10 +45,11 @@ schedule:
     time: "08h30"
   -
     name: "Thiago Alves"
+    site: "https://github.com/taltk9‎"
     time: "09h00"
-    photo: ""
-    company: ""
-    company_site: ""
+    photo: "https://avatars0.githubusercontent.com/u/5190217?s=200"
+    company: "Syntesis"
+    company_site: "http://syntesis.com.br/"
     presentation:
       title: "Toda a sofisticação de Nunjucks"
       rating_id: 1
@@ -57,19 +58,26 @@ schedule:
     name: "Lanche"
     time: "09h50"
   -
-    name: "Evandro Gonçalves e Rafael Silva"
+    name: "Evandro Gonçalves"
+    site: "https://github.com/EvandroLG"
     time: "10h10"
-    photo: ""
-    company: "RBS"
+    photo: "https://avatars3.githubusercontent.com/u/444054?s=200"
+    company: "Grupo RBS"
     company_site: "http://rbs.com.br"
+    name_2: "Rafael Silva"
+    site_2: "https://github.com/rssilva"
+    photo_2: "https://avatars2.githubusercontent.com/u/2047941?s=200"
+    company_2: "Grupo RBS"
+    company_site_2: "http://rbs.com.br"
     presentation:
       title: "Programação Funcional e o JavaScript"
       rating_id: 2
       description: 'Programação Funcional é um paradigma bastante em voga nos dias de hoje. O conceito é bastante antigo, vem lá do Lisp, e é embasado em cima de avaliações de funções matemáticas. Discutiremos os conceitos da Programação Funcional, suas "regras de ouro" e algumas das funções mais úteis utilizando JavaScript.'
   -
     name: "Rafael Macedo"
+    site: "https://github.com/rafaelmacedo"
     time: "11h00"
-    photo: ""
+    photo: "https://avatars2.githubusercontent.com/u/600470?s=200"
     company: "CodeMiner42"
     company_site: "http://codeminer42.com"
     presentation:
@@ -81,18 +89,18 @@ schedule:
     time: "12h00"
   -
     name: "Paulo Ragonha"
+    site: "https://github.com/pirelenito"
     time: "14h00"
-    photo: ""
-    company: ""
-    company_site: ""
+    photo: "https://avatars3.githubusercontent.com/u/6001?s=200"
     presentation:
       title: "Um mundo novo necessita de novas práticas: React"
       rating_id: 4
       description: "Todos sabemos da boa prática de não misturar JavaScript e Markup, é um mantra que nos ajudou por muito tempo a trazer sanidade a projetos fadados ao caos. React traz uma idéia controversa e perigosa de que JavaScript e Markup são na verdade partes de um mesmo componente. Entenda como essa ideia, que a princípio pode parecer blasfêmea, tem inúmeras vantagens quando usada em SPAs."
   -
     name: "Jaydson Gomes"
+    site: "http://jaydson.org"
     time: "14h50"
-    photo: ""
+    photo: "http://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?s=200"
     company: "Terra"
     company_site: "http://terra.com.br"
     site: "http://jaydson.org"
@@ -106,7 +114,7 @@ schedule:
   -
     name: "Jean Carlo Emer"
     time: "16h10"
-    photo: ""
+    photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=200"
     site: "http://jcemer.com"
     presentation:
       title: "Promete que não me chama de volta"
@@ -114,8 +122,9 @@ schedule:
       description: "Em breve"
   -
     name: "Daniel Filho"
+    site: "http://damniel.com"
     time: "17h00"
-    photo: ""
+    photo: "https://avatars1.githubusercontent.com/u/24597?s=200"
     company: "NetShoes"
     company_site: "http://netshoes.com.br"
     presentation:

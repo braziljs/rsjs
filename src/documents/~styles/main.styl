@@ -297,14 +297,20 @@ section.schedule
         .bar
             font-style: italic
             margin-bottom: gutterwidth * .5
+        .bar + .bar
+            margin-top: gutterwidth * -.5
+        img
+            width: 100%
         .photo
             width: 16%
             float: left
-            img
-                width: 100%
         .presentation
             float: right
             width: 78%
+        .photo + .photo
+            margin-left: 4%;
+        .photo + .photo + .presentation
+            width: 60%
         .button
             padding: 0 .9em
             font-size: .9em

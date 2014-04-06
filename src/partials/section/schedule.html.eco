@@ -18,8 +18,19 @@
                     - <a href="<%= slot.company_site %>" class="company" rel="external"><%= slot.company %></a>
                     <% end %>
                 </p>
+                <% if slot.name_2: %>
+                <p class="bar">
+                    <a href="<%= slot.site_2 %>" class="speaker" rel="external"><%= slot.name_2 %></a>
+                    <% if slot.company_2: %>
+                    - <a href="<%= slot.company_site_2 %>" class="company" rel="external"><%= slot.company_2 %></a>
+                    <% end %>
+                </p>
+                <% end %>
                 <% if slot.photo: %>
                 <div class="photo"><img src="<%= slot.photo %>" alt="<%= slot.name %>"></div>
+                <% end %>
+                <% if slot.photo_2: %>
+                <div class="photo"><img src="<%= slot.photo_2 %>" alt="<%= slot.name_2 %>"></div>
                 <% end %>
                 <div class="presentation">
                     <p><%- slot.presentation.description %></p>
