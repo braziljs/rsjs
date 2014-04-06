@@ -135,64 +135,83 @@ window.requestAnimationFrame =
 
     // Scroll spy
     // ===========
-    var ScrollSpy = {
-        scrollLast: 0
-      , nav: $('nav')
-      , active: $()
+    function ScrollSpy() {
+        this.scrollLast = 0
+        this.nav        = $('nav')
+        this.active     = $()
     }
 
-    ScrollSpy.init = function () {
+    ScrollSpy.prototype.init = function () {
         this.addEventListeners()
-        this.sections = this.getSections()
+        this.cacheNavItem()
+        this.updateSections()
     }
 
-    ScrollSpy.getSections = function () {
-        return $('section').elements.map(function(element){
+    ScrollSpy.prototype.cacheNavItem = function () {
+        this.navItem = {}
+        this.nav.find('a[href*="#"]').each(function (item) {
+            item = $(item)
+            this.navItem[item.attr('href').slice(1)] = item
+        }.bind(this))
+    }
+
+    ScrollSpy.prototype.getNavItem = function (id) {
+        return this.navItem[id] || $()
+    }
+
+    ScrollSpy.prototype.updateSections = function () {
+        this.sections = this.getSections()
+        this.menu()
+    }
+
+    ScrollSpy.prototype.getSections = function () {
+        return $('section').elements.map(function (element) {
             return {
                 id: element.id
-              , offset: element.getBoundingClientRect().top - 20
+                , offset: element.getBoundingClientRect().top + window.pageYOffset - 20
             }
         })
     }
 
-    ScrollSpy.getActive = function () {
+    ScrollSpy.prototype.getActive = function () {
         var scroll = window.pageYOffset
-          , id = null
+          , section
 
         for (var i = 0, l = this.sections.length; i < l; i++) {
-            if (this.sections[i].offset > scroll) {
-                if (i > 0) {
-                    id = this.sections[i - 1].id
-                }
-                break
-            }
+            this.sections[i].offset <= scroll && (section = this.sections[i])
         }
-        return id
+        return section && section.id
     }
 
-    ScrollSpy.addEventListeners = function () {
-        $(document).on('scroll', this.onScroll.bind(this))
+    ScrollSpy.prototype.addEventListeners = function () {
+        $(document)
+            .on('scroll', this.onScroll.bind(this))
+            .on('DOMContentLoaded', this.onLoad.bind(this))
+        $(window).on('load', this.onLoad.bind(this))
     }
 
-    ScrollSpy.onScroll = function (event) {
+    ScrollSpy.prototype.onScroll = function (event) {
         if ((Date.now() - this.scrollLast) > 50) {
             this.scrollLast = Date.now()
             this.menu()
         }
     }
 
-    ScrollSpy.menu = function () {
+    ScrollSpy.prototype.onLoad = function (event) {
+        this.updateSections();
+    }
+
+    ScrollSpy.prototype.menu = function () {
         var id = this.getActive()
-          , item = this.nav.find('a[href="#' + id + '"]')
+          , item = this.getNavItem(id)
 
         this.active.removeClass('active')
-        
         item.addClass('active')
-        this.active = item.addClass('open')
+        this.active = item
 
         this.nav.toggleClass('fixed', this.active.length)
     }
 
-    ScrollSpy.init()
+    new ScrollSpy().init()
 
 })(Rye)
