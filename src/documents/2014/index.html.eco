@@ -117,7 +117,7 @@ schedule:
     photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=200"
     site: "http://jcemer.com"
     presentation:
-      title: "Promete que não me chama de volta"
+      title: "Controle de fluxo com uma pitada de organização de código"
       rating_id: 6
       description: "Em breve"
   -
