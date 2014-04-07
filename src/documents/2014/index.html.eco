@@ -140,6 +140,10 @@ sponsors:
     name: "Senac"
     logo: "sponsors/senac.svg"
     url: "http://portal.senacrs.com.br"
+  -
+    name: "CodeMiner42"
+    logo: "sponsors/codeminer.svg"
+    url: "http://codeminer42.com"
 
 partners:
   -
