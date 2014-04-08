@@ -92,6 +92,8 @@ schedule:
     site: "https://github.com/pirelenito"
     time: "14h00"
     photo: "https://avatars3.githubusercontent.com/u/6001?s=200"
+    company: "Bravi"
+    company_site: "http://bravi.com.br"
     presentation:
       title: "Um mundo novo necessita de novas práticas: React"
       rating_id: 4
