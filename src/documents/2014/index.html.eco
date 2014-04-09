@@ -146,6 +146,10 @@ sponsors:
     name: "CodeMiner42"
     logo: "sponsors/codeminer.svg"
     url: "http://codeminer42.com"
+  -
+    name: "Bravi Software"
+    logo: "sponsors/bravi.svg"
+    url: "http://bravi.com.br"
 
 partners:
   -
