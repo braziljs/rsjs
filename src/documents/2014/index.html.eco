@@ -55,12 +55,9 @@ schedule:
       rating_id: 1
       description: "Nunjucks é uma <i>template engine</i> para JavaScript inspirada no jinja2 (Python). A liguagem de <i>template</i> lhe permite utilizar blocos de código, macros e herança de <i>templates</i>, tudo de forma simples e rápida. Além disso, iremos ver um exemplo de sua aplicação na criação de <i>sites</i> com conteúdo estático utilizando o Wintersmith."
   -
-    name: "Lanche"
-    time: "09h50"
-  -
     name: "Evandro Gonçalves"
     site: "https://github.com/EvandroLG"
-    time: "10h10"
+    time: "09h40"
     photo: "https://avatars3.githubusercontent.com/u/444054?s=200"
     company: "Grupo RBS"
     company_site: "http://rbs.com.br"
@@ -74,9 +71,23 @@ schedule:
       rating_id: 2
       description: 'Programação Funcional é um paradigma bastante em voga nos dias de hoje. O conceito é bastante antigo, vem lá do Lisp, e é embasado em cima de avaliações de funções matemáticas. Discutiremos os conceitos da Programação Funcional, suas "regras de ouro" e algumas das funções mais úteis utilizando JavaScript.'
   -
+    name: "Lanche"
+    time: "10h20"
+  -
+    name: "Guilherme Souza"
+    site: "https://twitter.com/mobtec"
+    time: "10h40"
+    photo: "https://pbs.twimg.com/profile_images/378800000660972080/507105890106227513df8abec7d8dad1_bigger.jpeg"
+    company: "Terra"
+    company_site: "http://terra.com.br"
+    presentation:
+      title: "Performance Mobile - Será que a culpa é só do 3G?"
+      rating_id: 3
+      description: "Cada vez mais nossas páginas estão mais pesadas, com mais <i>requests</i>, mais <i>plugins</i>, mais imagens. Você sabe o quanto seu usuário de rede móvel sofre por isso? Entenda e melhore nossas vidas."
+  -
     name: "Rafael Macedo"
     site: "https://github.com/rafaelmacedo"
-    time: "11h00"
+    time: "11h20"
     photo: "https://avatars2.githubusercontent.com/u/600470?s=200"
     company: "CodeMiner42"
     company_site: "http://codeminer42.com"
