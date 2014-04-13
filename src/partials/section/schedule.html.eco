@@ -44,9 +44,14 @@
             </td>
         </tr>
         <% else: %>
-        <tr class="other">
+        <tr class="other <%= slot.classname if slot.classname %>">
             <th class="time"><%= slot.time %></th>
-            <td class="slot" data-time="<%= slot.time %>"><%= slot.name %></td>
+            <td class="slot" data-time="<%= slot.time %>">
+                <div class="name"><%= slot.name %></div>
+                <% if slot.description: %>
+                <div class="description"><%- slot.description %></div>
+                <% end %>
+            </td>
         </tr>
         <% end %>
     <% end %>

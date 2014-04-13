@@ -147,6 +147,11 @@ schedule:
   -
     name: "Fechamento"
     time: "17h50"
+  -
+    name: "Happy Hour"
+    classname: "happyhour"
+    description: 'Primeira rodada por conta da <a href="http://codeminer42.com" rel="external">Codeminer42</a>.<br>Local a ser definido, sugestões?'
+    time: "19h00"
 
 sponsors:
   -
