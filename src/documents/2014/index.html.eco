@@ -81,7 +81,7 @@ schedule:
     company: "Terra"
     company_site: "http://terra.com.br"
     presentation:
-      title: "Performance Mobile - Será que a culpa é só do 3G?"
+      title: "Performance Mobile - A culpa é só do 3G?"
       rating_id: 3
       description: "Cada vez mais nossas páginas estão mais pesadas, com mais <i>requests</i>, mais <i>plugins</i>, mais imagens. Você sabe o quanto seu usuário de rede móvel sofre por isso? Entenda e melhore nossas vidas."
   -
