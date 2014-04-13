@@ -5,15 +5,17 @@ A front-end conference based in Porto Alegre, Rio Grande do Sul - Brazil.
 
 ## Getting Started
 
-```sudo npm install -fg docpad@6.20```
-
-```docpad install```
-
-```docpad run```
+~~~shell
+sudo npm install -fg docpad@6.20
+docpad install
+docpad run
+~~~
 
 ## Deploy
 
-```docpad deploy-ghpages --env static```
+~~~shell
+docpad deploy-ghpages --env static
+~~~
 
 ## Credits
 
