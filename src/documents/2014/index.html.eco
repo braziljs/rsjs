@@ -138,12 +138,12 @@ schedule:
     site: "http://damniel.com"
     time: "17h00"
     photo: "https://avatars1.githubusercontent.com/u/24597?s=200"
-    company: "NetShoes"
+    company: "Netshoes"
     company_site: "http://netshoes.com.br"
     presentation:
-      title: "Em breve"
+      title: "Somos todos UM++;"
       rating_id: 7
-      description: "Em breve"
+      description: "A web não se cria sozinha (ainda, pelo menos). Existem pessoas por trás de produtos e tecnologias, e um ecossistema que liga máquinas e pessoas. Precisamos evoluir não só como profissionais, mas coletivamente como personagens dessa história. Vou dividir meu ponto de vista sobre a comunidade atual de JavaScript no Brasil."
   -
     name: "Fechamento"
     time: "17h50"
