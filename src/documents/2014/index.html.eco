@@ -110,28 +110,39 @@ schedule:
       rating_id: 4
       description: "Todos sabemos da boa prática de não misturar JavaScript e Markup, é um mantra que nos ajudou por muito tempo a trazer sanidade a projetos fadados ao caos. React traz uma idéia controversa e perigosa de que JavaScript e Markup são na verdade partes de um mesmo componente. Entenda como essa ideia, que a princípio pode parecer blasfêmea, tem inúmeras vantagens quando usada em SPAs."
   -
+    name: "Felipe Nascimento"
+    time: "14h40"
+    photo: "http://secure.gravatar.com/avatar/929ed9958756c5c829a9eed068910646?s=100"
+    company: "Terra"
+    company_site: "http://terra.com.br"
+    site: "http://felipenmoura.org"
+    presentation:
+      title: "Comece a aprender ES6 sabendo tudo de JavaScript"
+      rating_id: 5
+      description: "A versão 6 do ECMAScript logo será lançada oficialmente, mas há ainda muitas coisas legais da linguagem que os desenvolvedores de hoje em dia não dominam, não estão acostumados a usar no dia-a-dia ou até mesmo desconhecem. Vamos abordar técnicas, patterns e detalhes da linguagem que não são tão comuns, bem como boas práticas e todas as \"novidades\" do ES5."
+  -
     name: "Jaydson Gomes"
     site: "http://jaydson.org"
-    time: "14h50"
+    time: "15h20"
     photo: "http://secure.gravatar.com/avatar/572696200604e59baa59ee90d61f7d02?s=200"
     company: "Terra"
     company_site: "http://terra.com.br"
     site: "http://jaydson.org"
     presentation:
       title: "ES6 rocks"
-      rating_id: 5
+      rating_id: 6
       description: "Em breve"
   -
     name: "Outro lanche"
-    time: "15h40"
+    time: "16h00"
   -
     name: "Jean Carlo Emer"
-    time: "16h10"
+    time: "16h20"
     photo: "http://secure.gravatar.com/avatar/c5df370a883b65279af5a7ca94a5eed7?s=200"
     site: "http://jcemer.com"
     presentation:
       title: "Controle de fluxo com uma pitada de organização de código"
-      rating_id: 6
+      rating_id: 7
       description: "Em breve"
   -
     name: "Daniel Filho"
@@ -142,11 +153,11 @@ schedule:
     company_site: "http://netshoes.com.br"
     presentation:
       title: "Somos todos UM++;"
-      rating_id: 7
+      rating_id: 8
       description: "A web não se cria sozinha (ainda, pelo menos). Existem pessoas por trás de produtos e tecnologias, e um ecossistema que liga máquinas e pessoas. Precisamos evoluir não só como profissionais, mas coletivamente como personagens dessa história. Vou dividir meu ponto de vista sobre a comunidade atual de JavaScript no Brasil."
   -
     name: "Fechamento"
-    time: "17h50"
+    time: "18h00"
   -
     name: "Happy Hour"
     classname: "happyhour"
