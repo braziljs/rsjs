@@ -108,7 +108,7 @@ schedule:
     presentation:
       title: "Um mundo novo necessita de novas práticas: React"
       rating_id: 4
-      description: "Todos sabemos da boa prática de não misturar JavaScript e Markup, é um mantra que nos ajudou por muito tempo a trazer sanidade a projetos fadados ao caos. React traz uma idéia controversa e perigosa de que JavaScript e Markup são na verdade partes de um mesmo componente. Entenda como essa ideia, que a princípio pode parecer blasfêmea, tem inúmeras vantagens quando usada em SPAs."
+      description: "Todos sabemos da boa prática de não misturar JavaScript e Markup, é um mantra que nos ajudou por muito tempo a trazer sanidade a projetos fadados ao caos. React traz uma idéia controversa e perigosa de que JavaScript e Markup são na verdade partes de um mesmo componente. Entenda como essa ideia, que a princípio pode parecer blasfêmia, tem inúmeras vantagens quando usada em SPAs."
   -
     name: "Felipe Nascimento"
     time: "14h40"
