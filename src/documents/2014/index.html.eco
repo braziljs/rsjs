@@ -117,7 +117,7 @@ schedule:
     company_site: "http://terra.com.br"
     site: "http://felipenmoura.org"
     presentation:
-      title: "Comece a aprender ES6 sabendo tudo de JavaScript"
+      title: "ES5 - aprenda a versão atual do JavaScript e se prepare para o futuro"
       rating_id: 5
       description: "A versão 6 do ECMAScript logo será lançada oficialmente, mas há ainda muitas coisas legais da linguagem que os desenvolvedores de hoje em dia não dominam, não estão acostumados a usar no dia-a-dia ou até mesmo desconhecem. Vamos abordar técnicas, patterns e detalhes da linguagem que não são tão comuns, bem como boas práticas e todas as \"novidades\" do ES5."
   -
