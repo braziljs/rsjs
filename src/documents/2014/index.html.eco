@@ -10,7 +10,7 @@ conf:
   weekday: "sábado"
   day: "17 de maio"
   year: "2014"
-  price: "R$ 50,00"
+  price: "R$ 80,00"
   venue: "Senac"
   venueLink: "http://portal.senacrs.com.br"
   mapAddress: "Rua Cel. Genuíno, 130, Porto Alegre, RS"
