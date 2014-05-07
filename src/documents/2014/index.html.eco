@@ -131,7 +131,7 @@ schedule:
     presentation:
       title: "ES6 rocks"
       rating_id: 6
-      description: "Em breve"
+      description: "Conheça a versão futura do JavaScript e aprenda como usa-la hoje mesmo! Esta é a sexta versão da linguagem e deve ser finalizada no final de 2014, porém, browsers modernos já suportam algumas das funcionalidades e ferramentas possibilitam o desenvolvimento em ES6 hoje gerando código ES5! ES6 Rocks!"
   -
     name: "Outro lanche"
     time: "16h00"
