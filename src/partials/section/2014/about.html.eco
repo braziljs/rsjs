@@ -3,15 +3,6 @@
     Só perdemos de lavada para o <a href="http://braziljs.com.br" rel="external">BrazilJS</a>, faz parte.<br>
     A história do evento tá lá nas páginas da <a href="http://2012.rsjs.org" rel="external">primeira</a> e <a href="http://rsjs.org/2013" rel="external">segunda</a> edição.
 </p>
-<div class="row">
-    <div class="box">
-        <p>Eventos locais tem a importante função de dar oportunidade para novos talentos.</p>
-        <a href="http://call4paperz.com/events/rsjs-2014" class="button" rel="external">Seja palestrante</a>
-    </div>
-    <div class="box">
-        <p>
-            Mais uma vez, uma parcela dos palestrantes quem decide é você.<br>
-            Envie sua proposta e <a href="http://call4paperz.com/events/rsjs-2014" rel="external">vote</a> nas que achar que merecem.
-        </p>
-    </div>
-</div>
+<p class="warning">
+    <a href="http://pt-br.confcodeofconduct.com" rel="external">Código de conduta do evento</a>.
+</p>
