@@ -190,11 +190,11 @@ partners:
     logo: "partners/braziljs.svg"
     url: "http://braziljs.org"
   -
-    name: "Editora Novatec",
-    logo: "partners/novatec.svg",
+    name: "Editora Novatec"
+    logo: "partners/novatec.svg"
     url: "http://novatec.com.br"
   -
-    name: "Target Trust",
-    logo: "partners/target-trust.svg",
+    name: "Target Trust"
+    logo: "partners/target-trust.svg"
     url: "http://www.targettrust.com.br"
 ---
