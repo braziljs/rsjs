@@ -1,0 +1,49 @@
+---
+layout: default
+path: "2015"
+
+conf:
+  name: "RSJS"
+  slogan: "Gaúcho com laço montado em rinoceronte"
+  description: "Quarta edição do maior evento (no primeiro semestre) de JavaScript do Rio Grande do Sul."
+  date: "2015-05-16T09:00+03:00"
+  weekday: "sábado"
+  day: "16 de maio"
+  year: "2015"
+  price: "-"
+  venue: "UniRitter"
+  venueLink: "http://www.uniritter.edu.br"
+  mapAddress: "Rua Orfanotrófio, 515, Alto Teresópolis, Porto Alegre, RS"
+  address: "Rua Orfanotrófio, 515"
+  city: "Porto Alegre"
+  state: "Rio Grande do Sul"
+
+sections:
+  - 'about'
+  - 'location'
+  - 'contact'
+
+footer:
+  - 'partners'
+
+labels:
+  about: "Sobre"
+  subscribe: "Inscrições"
+  schedule: "Programação"
+  location: "Local"
+  contact: "Contato"
+  sponsors: "Patrocínio"
+  partners: "Apoio"
+
+rating: false
+
+partners:
+  -
+    name: "BrazilJS"
+    logo: "partners/braziljs.svg"
+    url: "http://braziljs.org"
+  -
+    name: "Editora Novatec"
+    logo: "partners/novatec.svg"
+    url: "http://novatec.com.br"
+---
