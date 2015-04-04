@@ -13,7 +13,7 @@ conf:
   price: "-"
   venue: "UniRitter"
   venueLink: "http://www.uniritter.edu.br"
-  mapAddress: "Rua Orfanotrófio, 515, Alto Teresópolis, Porto Alegre, RS"
+  mapAddress: "Rua Orfanotrófio, 515 - Porto Alegre - RS"
   address: "Rua Orfanotrófio, 515"
   city: "Porto Alegre"
   state: "Rio Grande do Sul"
