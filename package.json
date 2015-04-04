@@ -3,19 +3,19 @@
   "version": "0.2.0",
   "description": "A kickstart to create websites for conference/events.",
   "homepage": "http://confboilerplate.com",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/braziljs/conf-boilerplate.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/braziljs/conf-boilerplate.git"
   },
-  "engines" : {
+  "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
   },
   "dependencies": {
-    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ghpages": "2.x",
     "docpad-plugin-marked": "2.x",
     "docpad-plugin-partials": "2.x",
-    "docpad-plugin-stylus": "2.x",
-    "docpad-plugin-ghpages": "2.x"
+    "docpad-plugin-stylus": "2.x"
   }
 }
