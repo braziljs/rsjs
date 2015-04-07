@@ -4,9 +4,11 @@
 </p>
 <div class="row">
     <div class="box">
-        <p><strong>Envie sua proposta!</strong> Eventos locais tem função de dar oportunidade para novos talentos.</p>
+        <p>Eventos locais tem função de dar oportunidade para novos talentos.
+        <strong>Envie sua proposta!</strong></p>
     </div>
     <div class="box">
-        <a href="https://docs.google.com/forms/d/1Lik3LWo_4ksb-ND8UJgaFQ5DkjwBw0huO5y4A-SP_iY" class="button" rel="external">Seja palestrante</a>
+        <a href="https://docs.google.com/forms/d/1Lik3LWo_4ksb-ND8UJgaFQ5DkjwBw0huO5y4A-SP_iY" class="button" rel="external">Enviar proposta de palestra</a>
+        <p>Propostas aceitas até <strong>10 de abril</strong>.</p>
     </div>
 </div>
