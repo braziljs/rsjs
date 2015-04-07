@@ -10,7 +10,7 @@ conf:
   weekday: "sábado"
   day: "16 de maio"
   year: "2015"
-  price: "-"
+  price: "R$ 30,00"
   venue: "UniRitter"
   venueLink: "http://www.uniritter.edu.br"
   mapAddress: "Rua Orfanotrófio, 515 - Porto Alegre - RS"
@@ -20,6 +20,7 @@ conf:
 
 sections:
   - 'about'
+  - 'subscribe'
   - 'location'
   - 'contact'
 

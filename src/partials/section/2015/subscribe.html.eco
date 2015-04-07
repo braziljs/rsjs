@@ -1,16 +1,12 @@
 <div class="row">
     <div class="box">
-        <p>Último lote: <b><%= @document.conf.price %></b></p>
-        <a href="http://even.tc/rsjs-2014" class="button" rel="external">Inscreva-se</a>
+        <p>Lote promocional até às 20h: <b><%= @document.conf.price %></b></p>
+        <a href="http://www.eventick.com.br/rsjs-2015" class="button" rel="external">Inscreva-se</a>
     </div>
     <div class="box">
         <p>
             Faça parte deste evento e aproveite o melhor <i>networking</i> do sul do país.<br>
-            Último lote, corre!
+            Quem compra antes paga menos :P
         </p>
     </div>
-</div>
-
-<div class="social-box">
-    <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Frsjavascript&amp;width=732&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:258px;" allowTransparency="true"></iframe>
 </div>
