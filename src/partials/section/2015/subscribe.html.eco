@@ -1,12 +1,6 @@
-<div class="row">
-    <div class="box">
-        <p>Lote promocional até às 20h: <b><%= @document.conf.price %></b></p>
-        <a href="http://www.eventick.com.br/rsjs-2015" class="button" rel="external">Inscreva-se</a>
-    </div>
-    <div class="box">
-        <p>
-            Faça parte deste evento e aproveite o melhor <i>networking</i> do sul do país.<br>
-            Quem compra antes paga menos :P
-        </p>
-    </div>
+<p class="emphasis">
+    Faça parte deste evento e aproveite o melhor <i>networking</i> do sul do país.
+</p>
+<div class="container">
+    <iframe src="http://www.eventick.com.br/rsjs-2015/embedded" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true" frameborder="0" height="400" width="100%"></iframe>
 </div>
