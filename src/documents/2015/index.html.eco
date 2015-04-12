@@ -19,13 +19,14 @@ conf:
   state: "Rio Grande do Sul"
 
 sections:
-  - 'about'
-  - 'subscribe'
-  - 'location'
-  - 'contact'
+  - "about"
+  - "subscribe"
+  - "schedule"
+  - "location"
+  - "contact"
 
 footer:
-  - 'partners'
+  - "partners"
 
 labels:
   about: "Sobre"
@@ -37,6 +38,40 @@ labels:
   partners: "Apoio"
 
 rating: false
+schedule:
+  -
+    name: "Fabrício Matté"
+    site: "https://github.com/UltCombo"
+    time: "&nbsp;"
+    photo: "https://avatars3.githubusercontent.com/u/2090712?v=3&amp;s=460"
+    company: ""
+    company_site: ""
+    presentation:
+      title: "O JavaScript do futuro, hoje e agora, serião mesmo."
+      rating_id: 1
+      description: "Apresentarei uma forma eficiente e prática de trabalhar a sério com as novas e futuras features da linguagem JavaScript. Esta palestra tem o foco em otimizar seu workflow de desenvolvimento com ECMAScript.next, através de builds incrementais, testes unitários e afins para que você possa desenvolver da forma mais agradável."
+  -
+    name: "Diogo Pereira Ribeiro"
+    site: "https://github.com/diogoriba"
+    time: "&nbsp;"
+    photo: "https://avatars1.githubusercontent.com/u/1004225?v=3&amp;s=400"
+    company: "Hewlett-Packard"
+    company_site: ""
+    presentation:
+      title: "Pinky Promise"
+      rating_id: 2
+      description: "O que são promises, que problema elas resolvem e como utilizá-las de maneira efetiva em aplicações reais. Cobrirei alguns casos de uso mais complexos, tratamento de exceções disparadas assincronamente e algumas comparações breves com outras estruturas de controle de execução de tarefas assíncronas utilizadas em outras linguagens."
+  -
+    name: "Rafael Specht da Silva"
+    site: "https://github.com/rssilva"
+    time: "&nbsp;"
+    photo: "https://avatars2.githubusercontent.com/u/2047941?s=400"
+    company: "Grupo RBS"
+    company_site: "http://gruporbs.com.br"
+    presentation:
+      title: "Processamento Digital de Sinais com Javascript"
+      rating_id: 3
+      description: "As novas APIs da web tem possibilitado grandes feitos para o Javascript. Essa palestra aborda tratamento de sinais que vão desde a criação de filtros de imagem, passando por distorções de áudio (e pedais de guitarra!), até compressão de streams! Vamos falar sobre as barreiras que a linguagem quebra diariamente!"
 
 partners:
   -

@@ -9,8 +9,8 @@
     <% for slot in @document.schedule: %>
         <% if slot.presentation: %>
         <tr>
-            <th class="time"><%= slot.time %></th>
-            <td class="slot" data-time="<%= slot.time %>">
+            <th class="time"><%- slot.time %></th>
+            <td class="slot" data-time="<%- slot.time %>">
                 <h2 class="talk subtitle"><%= slot.presentation.title %></h2>
                 <p class="bar">
                     <a href="<%= slot.site %>" class="speaker" rel="external"><%= slot.name %></a>
