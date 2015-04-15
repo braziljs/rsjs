@@ -40,6 +40,28 @@ labels:
 rating: false
 schedule:
   -
+    name: "Rafael Specht da Silva"
+    site: "https://github.com/rssilva"
+    time: "&nbsp;"
+    photo: "https://avatars2.githubusercontent.com/u/2047941?s=460"
+    company: "Grupo RBS"
+    company_site: "http://gruporbs.com.br"
+    presentation:
+      title: "Processamento Digital de Sinais com Javascript"
+      rating_id: 3
+      description: "As novas APIs da web tem possibilitado grandes feitos para o Javascript. Essa palestra aborda tratamento de sinais que vão desde a criação de filtros de imagem, passando por distorções de áudio (e pedais de guitarra!), até compressão de streams! Vamos falar sobre as barreiras que a linguagem quebra diariamente!"
+  -
+    name: "Guilherme Vieira"
+    site: "https://github.com/n2liquid"
+    time: "&nbsp;"
+    photo: "http://s12.postimg.org/xwl2s1c3t/unnamed.jpg"
+    company: ""
+    company_site: ""
+    presentation:
+      title: "Comunicação P2P arbitrária entre browsers"
+      rating_id: 5
+      description: "Bastante se é falado sobre o padrão WebRTC, que permite comunicação P2P entre browsers, mas o foco geralmente é em streaming de áudio e vídeo, sendo que é possível enviar qualquer tipo de dado entre dois browsers. Vamos explorar uma pequena aplicação que sincroniza playback de vídeos entre dois browsers, permitindo que duas pessoas vejam um filme juntas pela Internet com facilidade."
+  -
     name: "Fabrício Matté"
     site: "https://github.com/UltCombo"
     time: "&nbsp;"
@@ -50,6 +72,22 @@ schedule:
       title: "O JavaScript do futuro, hoje e agora, serião mesmo."
       rating_id: 1
       description: "Apresentarei uma forma eficiente e prática de trabalhar a sério com as novas e futuras features da linguagem JavaScript. Esta palestra tem o foco em otimizar seu workflow de desenvolvimento com ECMAScript.next, através de builds incrementais, testes unitários e afins para que você possa desenvolver da forma mais agradável."
+  -
+    name: "Luiz Sordi"
+    site: "https://www.linkedin.com/in/lrsordi"
+    time: "&nbsp;"
+    photo: "https://media.licdn.com/media/p/3/000/1ed/39e/2adf96c.jpg"
+    company: "Huia"
+    company_site: "http://www.huia.com.br"
+    name_2: "Gustavo Allebrandt"
+    site_2: "http://www.gustavoallebrandt.com"
+    photo_2: "https://media.licdn.com/media/p/7/000/216/1dc/36d51a1.jpg"
+    company_2: "Huia"
+    company_site_2: "http://www.huia.com.br"
+    presentation:
+      title: "#2 cases interativos com JS"
+      rating_id: 6
+      description: "No primeiro, trataremos da utilização de webcam para detecção de gestures e reconhecimento facial. Já no segundo projeto, mostraremos o uso de 3D (WebGL) com realidade virtual, além de integração com Oculus Rift. Os cases foram desenvolvidos na Huia e serão explorados desde o problema até a solução técnica."
   -
     name: "Diogo Pereira Ribeiro"
     site: "https://github.com/diogoriba"
@@ -62,16 +100,16 @@ schedule:
       rating_id: 2
       description: "O que são promises, que problema elas resolvem e como utilizá-las de maneira efetiva em aplicações reais. Cobrirei alguns casos de uso mais complexos, tratamento de exceções disparadas assincronamente e algumas comparações breves com outras estruturas de controle de execução de tarefas assíncronas utilizadas em outras linguagens."
   -
-    name: "Rafael Specht da Silva"
-    site: "https://github.com/rssilva"
+    name: "John Murowaniecki"
+    site: "https://github.com/jmurowaniecki"
     time: "&nbsp;"
-    photo: "https://avatars2.githubusercontent.com/u/2047941?s=400"
-    company: "Grupo RBS"
-    company_site: "http://gruporbs.com.br"
+    photo: "https://avatars1.githubusercontent.com/u/1261167?v=3&s=460"
+    company: "Encode Web"
+    company_site: "http://encodeweb.com.br"
     presentation:
-      title: "Processamento Digital de Sinais com Javascript"
-      rating_id: 3
-      description: "As novas APIs da web tem possibilitado grandes feitos para o Javascript. Essa palestra aborda tratamento de sinais que vão desde a criação de filtros de imagem, passando por distorções de áudio (e pedais de guitarra!), até compressão de streams! Vamos falar sobre as barreiras que a linguagem quebra diariamente!"
+      title: "Não existe desculpa!"
+      rating_id: 4
+      description: "Sublime Text, gEdit, TextWrangler, Geany, Vim, entre outros aplicativos possúem N+1 plugins e recursos de desenvolvimento que são - na melhor das hipóteses - ignorados. Não existe desculpa pra entregar código ilegível, feio ou simplesmente ruim. Utilizaremos como exemplo o hype Sublime Text e o cult (e amplamente disponível) Vim."
 
 partners:
   -
