@@ -26,6 +26,7 @@ sections:
   - "contact"
 
 footer:
+  - "sponsors"
   - "partners"
 
 labels:
@@ -111,11 +112,25 @@ schedule:
       rating_id: 4
       description: "Sublime Text, gEdit, TextWrangler, Geany, Vim, entre outros aplicativos possúem N+1 plugins e recursos de desenvolvimento que são - na melhor das hipóteses - ignorados. Não existe desculpa pra entregar código ilegível, feio ou simplesmente ruim. Utilizaremos como exemplo o hype Sublime Text e o cult (e amplamente disponível) Vim."
 
+sponsors:
+  -
+    name: "Grifo"
+    logo: "sponsors/grifo.svg"
+    url: "http://gri.fo"
+
 partners:
   -
     name: "BrazilJS"
     logo: "partners/braziljs.svg"
     url: "http://braziljs.org"
+  -
+    name: "Abradi RS"
+    logo: "partners/abradi-rs.svg"
+    url: "http://www.abradirs.com.br"
+  -
+    name: "Stefanie Moura"
+    logo: "partners/stefanie-moura.png"
+    url: "http://stefaniemoura.wix.com/photo"
   -
     name: "Editora Novatec"
     logo: "partners/novatec.svg"
