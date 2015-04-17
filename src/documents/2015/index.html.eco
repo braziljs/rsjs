@@ -61,7 +61,7 @@ schedule:
     presentation:
       title: "Comunicação P2P arbitrária entre browsers"
       rating_id: 5
-      description: "Bastante se é falado sobre o padrão WebRTC, que permite comunicação P2P entre browsers, mas o foco geralmente é em streaming de áudio e vídeo, sendo que é possível enviar qualquer tipo de dado entre dois browsers. Vamos explorar uma pequena aplicação que sincroniza playback de vídeos entre dois browsers, permitindo que duas pessoas vejam um filme juntas pela Internet com facilidade."
+      description: "Bastante se é falado sobre o padrão WebRTC, que permite comunicação P2P entre browsers, mas o foco geralmente é em streaming de áudio e vídeo, sendo que é possível enviar qualquer tipo de dado. Vamos explorar uma pequena aplicação que sincroniza playback de vídeo entre dois browsers, permitindo que duas pessoas vejam um filme \"juntas\" pela Internet com facilidade."
   -
     name: "Fabrício Matté"
     site: "https://github.com/UltCombo"
