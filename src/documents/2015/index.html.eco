@@ -80,11 +80,6 @@ schedule:
     photo: "https://media.licdn.com/media/p/3/000/1ed/39e/2adf96c.jpg"
     company: "Huia"
     company_site: "http://www.huia.com.br"
-    name_2: "Gustavo Allebrandt"
-    site_2: "http://www.gustavoallebrandt.com"
-    photo_2: "https://media.licdn.com/media/p/7/000/216/1dc/36d51a1.jpg"
-    company_2: "Huia"
-    company_site_2: "http://www.huia.com.br"
     presentation:
       title: "#2 cases interativos com JS"
       rating_id: 6
