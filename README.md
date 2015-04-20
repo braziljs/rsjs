@@ -13,9 +13,7 @@ docpad run
 
 ## Deploy
 
-~~~shell
-docpad deploy-ghpages --env static
-~~~
+The deploy is automatic triggered by [Snap-CI](https://snap-ci.com/braziljs/rsjs/branch/master).
 
 ## Credits
 
