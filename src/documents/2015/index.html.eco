@@ -112,6 +112,14 @@ sponsors:
     name: "Grifo"
     logo: "sponsors/grifo.svg"
     url: "http://gri.fo"
+  -
+    name: "w3haus"
+    logo: "sponsors/w3haus.png"
+    url: "http://www.w3haus.com.br"
+  -
+    name: "Huia"
+    logo: "sponsors/huia.png"
+    url: "http://www.huia.com.br"
 
 partners:
   -
