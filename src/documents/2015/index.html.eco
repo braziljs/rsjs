@@ -142,6 +142,10 @@ partners:
     logo: "partners/braziljs.svg"
     url: "http://braziljs.org"
   -
+    name: "Mozilla"
+    logo: "partners/mozilla.png"
+    url: "https://www.mozilla.org"
+  -
     name: "Abradi RS"
     logo: "partners/abradi-rs.svg"
     url: "http://www.abradirs.com.br"
