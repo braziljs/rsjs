@@ -124,6 +124,10 @@ sponsors:
     logo: "sponsors/grifo.svg"
     url: "http://gri.fo"
   -
+    name: "CodeMiner42"
+    logo: "sponsors/codeminer.svg"
+    url: "http://codeminer42.com"
+  -
     name: "w3haus"
     logo: "sponsors/w3haus.png"
     url: "http://www.w3haus.com.br"
