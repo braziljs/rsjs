@@ -85,6 +85,17 @@ schedule:
       rating_id: 6
       description: "No primeiro, trataremos da utilização de webcam para detecção de gestures e reconhecimento facial. Já no segundo projeto, mostraremos o uso de 3D (WebGL) com realidade virtual, além de integração com Oculus Rift. Os cases foram desenvolvidos na Huia e serão explorados desde o problema até a solução técnica."
   -
+    name: "Paulo Diovani Gonçalves"
+    site: "http://blog.diovani.com"
+    time: "&nbsp;"
+    photo: "https://avatars2.githubusercontent.com/u/1295197?v=3&amp;s=400"
+    company: "Codeminer42"
+    company_site: "http://www.codeminer42.com"
+    presentation:
+      title: "Javascript no servidor com Node.js"
+      rating_id: 2
+      description: "Uma introdução a Node.js, apresentando as principais características (e vantagens) da plataforma, seu ecossistema e comunidade crescente. Ao final, apresenta algumas dicas de como aprender Node.js rapidamente."
+  -
     name: "Diogo Pereira Ribeiro"
     site: "https://github.com/diogoriba"
     time: "&nbsp;"
