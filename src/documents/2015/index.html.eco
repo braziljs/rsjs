@@ -41,6 +41,17 @@ labels:
 rating: false
 schedule:
   -
+    name: "Túlio Ornelas"
+    site: "https://github.com/tulios"
+    time: "&nbsp;"
+    photo: "https://avatars2.githubusercontent.com/u/33231?v=3&amp;s=460"
+    company: "Globo.com"
+    company_site: "http://globo.com"
+    presentation:
+      title: "Ciência de foguete, usando reactJS para criar a futura plataforma de vídeos da globo.com"
+      rating_id: 3
+      description: "Uma troca de experiência sobre o desenvolvimento de um grande projeto em ReactJS, explorando os desafios e as soluções encontradas. A internet esta cheia de exemplos com um palmo de profundidade veja como as coisas são feitas de verdade."
+  -
     name: "Rafael Specht da Silva"
     site: "https://github.com/rssilva"
     time: "&nbsp;"
