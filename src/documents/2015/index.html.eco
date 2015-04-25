@@ -121,13 +121,24 @@ schedule:
     name: "John Murowaniecki"
     site: "https://github.com/jmurowaniecki"
     time: "&nbsp;"
-    photo: "https://avatars1.githubusercontent.com/u/1261167?v=3&s=460"
+    photo: "https://avatars1.githubusercontent.com/u/1261167?v=3&amp;s=460"
     company: "Encode Web"
     company_site: "http://encodeweb.com.br"
     presentation:
       title: "Não existe desculpa!"
       rating_id: 4
       description: "Sublime Text, gEdit, TextWrangler, Geany, Vim, entre outros aplicativos possúem N+1 plugins e recursos de desenvolvimento que são - na melhor das hipóteses - ignorados. Não existe desculpa pra entregar código ilegível, feio ou simplesmente ruim. Utilizaremos como exemplo o hype Sublime Text e o cult (e amplamente disponível) Vim."
+  -
+    name: "Cynthia Zanoni"
+    site: "http://cynthiazanoni.blogspot.com"
+    time: "&nbsp;"
+    photo: "https://secure.gravatar.com/avatar/acf2c97fd68b165d50bdf8f446afc0e7?s=400"
+    company: "Think Inovação"
+    company_site: "http://thinkinovacao.com.br"
+    presentation:
+      title: "Firefox OS e o mobile de amanhã"
+      rating_id: 4
+      description: "Tu já conheces o Firefox OS? E se eu te contasse que tu podes contribuir para o futuro do dele? Conheça as novidades da plataforma mobile da Mozilla e saiba como fazer parte desta história."
 
 sponsors:
   -
