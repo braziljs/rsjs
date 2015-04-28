@@ -52,6 +52,17 @@ schedule:
       rating_id: 3
       description: "Uma troca de experiência sobre o desenvolvimento de um grande projeto em ReactJS, explorando os desafios e as soluções encontradas. A internet esta cheia de exemplos com um palmo de profundidade veja como as coisas são feitas de verdade."
   -
+    name: "Diogo Lucas"
+    site: "https://about.me/diogo.lucas"
+    time: "&nbsp;"
+    photo: "https://avatars1.githubusercontent.com/u/543526?v=3&amp;s=460"
+    company: "AGCO"
+    company_site: "http://www.agcocorp.com"
+    presentation:
+      title: "Criação de APIs lightweight com harvester.js"
+      rating_id: 3
+      description: "Tecnologias como node.js, MongoDB e ElasticSearch são um fit fantástico para a criação de APIs leves e escaláveis. Nesta apresentação, conheceremos o harvester.js, uma biblioteca de apoio na criação dessas APIs, focada na eliminação de código desnecessário e no uso de padrões abertos."
+  -
     name: "Rafael Specht da Silva"
     site: "https://github.com/rssilva"
     time: "&nbsp;"
