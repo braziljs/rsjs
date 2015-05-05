@@ -59,8 +59,8 @@ schedule:
     site: "https://github.com/n2liquid"
     time: "9h40"
     photo: "http://s12.postimg.org/xwl2s1c3t/unnamed.jpg"
-    company: ""
-    company_site: ""
+    company: "E-Core"
+    company_site: "http://www.ecore.com.br"
     presentation:
       title: "Comunicação P2P arbitrária entre browsers"
       rating_id: 1
