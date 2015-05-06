@@ -134,8 +134,8 @@ schedule:
     site: "https://github.com/UltCombo"
     time: "16h00"
     photo: "https://avatars3.githubusercontent.com/u/2090712?v=3&amp;s=460"
-    company: ""
-    company_site: ""
+    company: "Nodo"
+    company_site: "http://nodo.cc"
     presentation:
       title: "O JavaScript do futuro, hoje e agora, serião mesmo."
       rating_id: 6
