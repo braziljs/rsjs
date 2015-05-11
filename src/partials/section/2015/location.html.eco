@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="frame map">
+       <div id="map-canvas" data-address="<%= @document.conf.mapAddress %>"></div>
+       <p><a href="http://maps.google.com?q=<%= encodeURI(@document.conf.mapAddress) %>" rel="external">ver no google maps</a></p>
+    </div>
+
+    <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <img class="address-photo" src="http://www.uniritter.edu.br/40anos/galeria/2007-AuditorioMaster.jpg" alt="Auditório">
+        <p>
+            <strong>Auditório Master, prédio A</strong><br>
+        </p>
+        <p class="subtitle venue"><a href="<%= @document.conf.venueLink %>" rel="external"><%= @document.conf.venue %></a></p>
+        <p>
+            <span itemprop="streetAddress"><%= @document.conf.address %></span><br>
+            <span itemprop="addressLocality"><%= @document.conf.city %></span>,
+            <span itemprop="addressRegion"> <%= @document.conf.state %></span>
+        </p>
+    </div>
+</div>
