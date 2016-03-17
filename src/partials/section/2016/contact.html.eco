@@ -1,0 +1,16 @@
+<div class="row">    
+    <div class="box">
+        <p class="subtitle">eventos@nasc.io</p>
+    </div>
+    <div class="box">
+        <p>Qualquer dúvida, entre em contato com a organização do evento.<br> Tá valendo pedir desconto para grupos e também patrocionar o evento.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="box">
+        <h2 class="subtitle">Organização</h2>
+        <p class="curator"><a href="http://felipenmoura.org" rel="external">Felipe Nascimento</a></p>
+        <p class="curator"><a href="http://jaydson.org" rel="external">Jaydson Gomes</a></p>
+    </div>
+</div>

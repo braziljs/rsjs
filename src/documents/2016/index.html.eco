@@ -1,0 +1,183 @@
+---
+layout: default
+path: "2016"
+
+conf:
+  name: "RSJS"
+  slogan: "Gaúcho com laço montado em rinoceronte"
+  description: "Quinta edição do tradicional evento gaudério de JavaScript"
+  date: "2016-04-23T09:00+03:00"
+  weekday: "sábado"
+  day: "23 de Abril"
+  year: "2016"
+  price: "R$ 79,00"
+  venue: "Senac"
+  venueLink: "http://www.senacrs.com.br/contato_unidades.asp"
+  mapAddress: "Rua Cel. Genuíno, 130 - Porto Alegre - RS"
+  address: "Rua Cel. Genuíno, 130"
+  city: "Porto Alegre"
+  state: "Rio Grande do Sul"
+
+sections:
+  - "about"
+  - "subscribe"
+  - "c4p"
+  - "location"
+  - "contact"  
+
+footer:
+  - "sponsors"
+  - "partners"
+
+labels:
+  about: "Sobre"
+  subscribe: "Inscrições"
+  schedule: "Programação"
+  location: "Local"
+  contact: "Contato"
+  sponsors: "Patrocínio"
+  partners: "Apoio"
+  c4p: "Call for papers"
+
+rating: false
+c4p:
+  - link "https://docs.google.com/forms/d/1Ycao4MX35vXVpo9vDuCfLdp9Ny1NgwO_zBDIBGLz0ZE/viewform"
+schedule:
+  - 
+    name: "Abertura"
+    time: "08h30"
+  -
+    name: "John Murowaniecki"
+    site: "https://github.com/jmurowaniecki"
+    time: "09h00"
+    photo: "https://avatars1.githubusercontent.com/u/1261167?v=3&amp;s=460"
+    company: "Encode Web"
+    company_site: "http://encodeweb.com.br"
+    presentation:
+      title: "Não existe desculpa!"
+      rating_id: 4
+      description: "Sublime Text, gEdit, TextWrangler, Geany, Vim, entre outros aplicativos possúem N+1 plugins e recursos de desenvolvimento que são - na melhor das hipóteses - ignorados. Não existe desculpa pra entregar código ilegível, feio ou simplesmente ruim. Utilizaremos como exemplo o hype Sublime Text e o cult (e amplamente disponível) Vim."
+  -
+    name: "Guilherme Vieira"
+    site: "https://github.com/n2liquid"
+    time: "9h40"
+    photo: "http://s12.postimg.org/xwl2s1c3t/unnamed.jpg"
+    company: "E-Core"
+    company_site: "http://www.ecore.com.br"
+    presentation:
+      title: "Comunicação P2P arbitrária entre browsers"
+      rating_id: 1
+      description: "Bastante se é falado sobre o padrão WebRTC, que permite comunicação P2P entre browsers, mas o foco geralmente é em streaming de áudio e vídeo, sendo que é possível enviar qualquer tipo de dado. Vamos explorar uma pequena aplicação que sincroniza playback de vídeo entre dois browsers, permitindo que duas pessoas vejam um filme \"juntas\" pela Internet com facilidade."
+  -
+    name: "Lanche"
+    time: "10h20"
+  -
+    name: "Paulo Diovani Gonçalves"
+    site: "http://blog.diovani.com"
+    time: "10h40"
+    photo: "https://avatars2.githubusercontent.com/u/1295197?v=3&amp;s=400"
+    company: "Codeminer42"
+    company_site: "http://www.codeminer42.com"
+    presentation:
+      title: "Javascript no servidor com Node.js"
+      rating_id: 5
+      description: "Uma introdução a Node.js, apresentando as principais características (e vantagens) da plataforma, seu ecossistema e comunidade crescente. Ao final, apresenta algumas dicas de como aprender Node.js rapidamente."
+  -
+    name: "Diogo Pereira Ribeiro"
+    site: "https://github.com/diogoriba"
+    time: "11:20"
+    photo: "https://avatars1.githubusercontent.com/u/1004225?v=3&amp;s=400"
+    company: "Hewlett-Packard"
+    company_site: ""
+    presentation:
+      title: "Pinky Promise"
+      rating_id: 7
+      description: "O que são promises, que problema elas resolvem e como utilizá-las de maneira efetiva em aplicações reais. Cobrirei alguns casos de uso mais complexos, tratamento de exceções disparadas assincronamente e algumas comparações breves com outras estruturas de controle de execução de tarefas assíncronas utilizadas em outras linguagens."
+  -
+    name: "Rango"
+    time: "12h00"
+  -
+    name: "Cynthia Zanoni"
+    site: "http://cynthiazanoni.blogspot.com"
+    time: "14h00"
+    photo: "https://secure.gravatar.com/avatar/acf2c97fd68b165d50bdf8f446afc0e7?s=400"
+    company: "Think Inovação"
+    company_site: "http://thinkinovacao.com.br"
+    presentation:
+      title: "Flash talk: Firefox OS e o mobile de amanhã"
+      rating_id: 4
+      description: "Tu já conheces o Firefox OS? E se eu te contasse que tu podes contribuir para o futuro dele? Conheça as novidades da plataforma mobile da Mozilla e saiba como fazer parte desta história."  
+  -
+    name: "Luiz Sordi"
+    site: "https://www.linkedin.com/in/lrsordi"
+    time: "14h20"
+    photo: "https://media.licdn.com/media/p/3/000/1ed/39e/2adf96c.jpg"
+    company: "Huia"
+    company_site: "http://www.huia.com.br"
+    presentation:
+      title: "#2 cases interativos com JS"
+      rating_id: 6
+      description: "No primeiro, trataremos da utilização de webcam para detecção de gestures e reconhecimento facial. Já no segundo projeto, mostraremos o uso de 3D (WebGL) com realidade virtual, além de integração com Oculus Rift. Os cases foram desenvolvidos na Huia e serão explorados desde o problema até a solução técnica."
+  -
+    name: "Túlio Ornelas"
+    site: "https://github.com/tulios"
+    time: "15h00"
+    photo: "https://avatars2.githubusercontent.com/u/33231?v=3&amp;s=460"
+    company: "Globo.com"
+    company_site: "http://globo.com"
+    presentation:
+      title: "Ciência de foguete, usando reactJS para criar a futura plataforma de vídeos da globo.com"
+      rating_id: 5
+      description: "Uma troca de experiência sobre o desenvolvimento de um grande projeto em ReactJS, explorando os desafios e as soluções encontradas. A internet esta cheia de exemplos com um palmo de profundidade veja como as coisas são feitas de verdade."
+  -    
+    name: "Lanche"
+    time: "15h40"
+  -
+    name: "Fabrício Matté"
+    site: "https://github.com/UltCombo"
+    time: "16h00"
+    photo: "https://avatars3.githubusercontent.com/u/2090712?v=3&amp;s=460"
+    company: "Nodo"
+    company_site: "http://nodo.cc"
+    presentation:
+      title: "O JavaScript do futuro, hoje e agora, serião mesmo."
+      rating_id: 6
+      description: "Apresentarei uma forma eficiente e prática de trabalhar a sério com as novas e futuras features da linguagem JavaScript. Esta palestra tem o foco em otimizar seu workflow de desenvolvimento com ECMAScript.next, através de builds incrementais, testes unitários e afins para que você possa desenvolver da forma mais agradável."
+  -
+    name: "Diogo Lucas"
+    site: "https://about.me/diogo.lucas"
+    time: "16h40"
+    photo: "https://avatars1.githubusercontent.com/u/543526?v=3&amp;s=460"
+    company: "AGCO"
+    company_site: "http://www.agcocorp.com"
+    presentation:
+      title: "Criação de APIs lightweight com harvester.js"
+      rating_id: 3
+      description: "Tecnologias como node.js, MongoDB e ElasticSearch são um fit fantástico para a criação de APIs leves e escaláveis. Nesta apresentação, conheceremos o harvester.js, uma biblioteca de apoio na criação dessas APIs, focada na eliminação de código desnecessário e no uso de padrões abertos."
+  -
+    name: "Rafael Specht da Silva"
+    site: "https://github.com/rssilva"
+    time: "17h20"
+    photo: "https://avatars2.githubusercontent.com/u/2047941?s=460"
+    company: "Grupo RBS"
+    company_site: "http://gruporbs.com.br"
+    presentation:
+      title: "Processamento Digital de Sinais com Javascript"
+      rating_id: 3
+      description: "As novas APIs da web tem possibilitado grandes feitos para o Javascript. Essa palestra aborda tratamento de sinais que vão desde a criação de filtros de imagem, passando por distorções de áudio (e pedais de guitarra!), até compressão de streams! Vamos falar sobre as barreiras que a linguagem quebra diariamente!"
+  -
+    name: "Encerramento"
+    time: "18h00"
+
+sponsors:
+  -
+    name: "Kinghost"
+    logo: "sponsors/kinghost.svg"
+    url: "http://kinghost.com.br"
+
+partners:
+  -
+    name: "BrazilJS"
+    logo: "partners/braziljs-logo.png"
+    url: "https://braziljs.org"
+---
