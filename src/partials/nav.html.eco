@@ -2,7 +2,7 @@
     <ul>
         <% for section in @document.sections : %>
         <li class="nav-item nav-item-<%= section %>">
-            <a href="#<%= @document.labels[section].toLowerCase() %>" title="<%= @document.labels[section] %>"><%= @document.labels[section] %></a>
+            <a href="#<%= @document.labels[section].toLowerCase().replace(/\s/g, '_') %>" title="<%= @document.labels[section] %>"><%= @document.labels[section] %></a>
         </li>
         <% end %>
     </ul>
