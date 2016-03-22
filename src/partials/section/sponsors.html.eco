@@ -1,9 +1,12 @@
-<ul class="organizations">
-    <% for sponsor in @document.sponsors: %>
-    <li itemscope itemtype="http://schema.org/Organization">
-        <a href="<%= sponsor.url %>" itemprop="url" rel="external">
-            <img src="/<%= sponsor.logo %>" alt="<%= sponsor.name %>" itemprop="image">
-        </a>
-    </li>
-    <% end %>
-</ul>
+<!-- BrazilJS snippet -->
+<div id='braziljs-widget-partners'></div>
+<script src='https://braziljs.org/js/widget.js'></script>
+<script>
+    BrazilJS.widget.load('partners', {
+        eventId: '569db7a4a7f39c4e681c0f40',
+        name: 'RSJS',
+        theme: 'white',
+        container: document.getElementById('braziljs-widget-partners')
+    });
+</script>
+<!-- end of BrazilJS snippet -->
