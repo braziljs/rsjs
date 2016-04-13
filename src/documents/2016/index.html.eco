@@ -21,9 +21,9 @@ conf:
 sections:
   - "about"
   - "subscribe"
-  - "c4p"
+  - "schedule"
   - "location"
-  - "contact"  
+  - "contact"
 
 footer:
   - "sponsors"
@@ -47,124 +47,124 @@ schedule:
     name: "Abertura"
     time: "08h30"
   -
-    name: "John Murowaniecki"
-    site: "https://github.com/jmurowaniecki"
+    name: "Rafael Fuzifaru Cianci"
+    site: "https://twitter.com/rafacianci"
     time: "09h00"
-    photo: "https://avatars1.githubusercontent.com/u/1261167?v=3&amp;s=460"
-    company: "Encode Web"
-    company_site: "http://encodeweb.com.br"
+    photo: "/images/2016/rafael-fuzifaru-cianci.jpg"
+    company: "Compufour"
+    company_site: "https://www.compufour.com.br/"
     presentation:
-      title: "Não existe desculpa!"
-      rating_id: 4
-      description: "Sublime Text, gEdit, TextWrangler, Geany, Vim, entre outros aplicativos possúem N+1 plugins e recursos de desenvolvimento que são - na melhor das hipóteses - ignorados. Não existe desculpa pra entregar código ilegível, feio ou simplesmente ruim. Utilizaremos como exemplo o hype Sublime Text e o cult (e amplamente disponível) Vim."
+      title: "Pure Function - Trabalhando sem side-effects."
+      rating_id: 
+      description: "Vamos falar sobre oque é uma Pure Function, quais seus conceitos e o porque que você deveria estar usando."
   -
-    name: "Guilherme Vieira"
-    site: "https://github.com/n2liquid"
+    name: "Matheus Lima"
+    site: "https://matheuslima.com/"
     time: "9h40"
-    photo: "http://s12.postimg.org/xwl2s1c3t/unnamed.jpg"
-    company: "E-Core"
-    company_site: "http://www.ecore.com.br"
+    photo: "/images/2016/matheus-lima.jpg"
+    company: "Concrete Solutions"
+    company_site: "http://www.concretesolutions.com.br/"
     presentation:
-      title: "Comunicação P2P arbitrária entre browsers"
-      rating_id: 1
-      description: "Bastante se é falado sobre o padrão WebRTC, que permite comunicação P2P entre browsers, mas o foco geralmente é em streaming de áudio e vídeo, sendo que é possível enviar qualquer tipo de dado. Vamos explorar uma pequena aplicação que sincroniza playback de vídeo entre dois browsers, permitindo que duas pessoas vejam um filme \"juntas\" pela Internet com facilidade."
+      title: "Programação Funcional com ES6"
+      rating_id: 
+      description: "Uma introdução a Programação Funcional, usando exemplos com ES6, para despertar o interesse através de motivações reais e claras do porquê do uso da mesma."
   -
     name: "Lanche"
     time: "10h20"
   -
-    name: "Paulo Diovani Gonçalves"
-    site: "http://blog.diovani.com"
+    name: "Vinicius Dacal Lopes"
+    site: "http://viniciusdacal.com"
     time: "10h40"
-    photo: "https://avatars2.githubusercontent.com/u/1295197?v=3&amp;s=400"
-    company: "Codeminer42"
-    company_site: "http://www.codeminer42.com"
+    photo: "/images/2016/vinicius-dacal.jpg"
+    company: "Coderockr"
+    company_site: "http://en.coderockr.com/"
     presentation:
-      title: "Javascript no servidor com Node.js"
-      rating_id: 5
-      description: "Uma introdução a Node.js, apresentando as principais características (e vantagens) da plataforma, seu ecossistema e comunidade crescente. Ao final, apresenta algumas dicas de como aprender Node.js rapidamente."
+      title: "Descomplicando Imutabilidade em JS"
+      rating_id: 
+      description: "Com a ascensão do paradigma funcional, um dos conceitos muito abordado é imutabilidade, mas o que isso significa, quais são os reais benefícios e por que você deveria estar utilizando? Nesta palestra voltada tanto para quem está começando quanto para programadores experientes que estão acostumados com o paradigma imperativo, será abordado o tema, de forma simples e objetiva, junto com demonstrações dos reais ganhos que essa prática trás."
   -
-    name: "Diogo Pereira Ribeiro"
-    site: "https://github.com/diogoriba"
+    name: ""
+    site: ""
     time: "11:20"
-    photo: "https://avatars1.githubusercontent.com/u/1004225?v=3&amp;s=400"
-    company: "Hewlett-Packard"
+    photo: ""
+    company: ""
     company_site: ""
     presentation:
-      title: "Pinky Promise"
-      rating_id: 7
-      description: "O que são promises, que problema elas resolvem e como utilizá-las de maneira efetiva em aplicações reais. Cobrirei alguns casos de uso mais complexos, tratamento de exceções disparadas assincronamente e algumas comparações breves com outras estruturas de controle de execução de tarefas assíncronas utilizadas em outras linguagens."
+      title: "Em breve"
+      rating_id: 
+      description: ""
   -
     name: "Rango"
     time: "12h00"
   -
-    name: "Cynthia Zanoni"
-    site: "http://cynthiazanoni.blogspot.com"
+    name: "William Huang"
+    site: "https://github.com/tudobala"
     time: "14h00"
-    photo: "https://secure.gravatar.com/avatar/acf2c97fd68b165d50bdf8f446afc0e7?s=400"
-    company: "Think Inovação"
-    company_site: "http://thinkinovacao.com.br"
+    photo: "/images/2016/william-huang.png"
+    company: "Maistre"
+    company_site: "http://www.maistre.com.br"
     presentation:
-      title: "Flash talk: Firefox OS e o mobile de amanhã"
-      rating_id: 4
-      description: "Tu já conheces o Firefox OS? E se eu te contasse que tu podes contribuir para o futuro dele? Conheça as novidades da plataforma mobile da Mozilla e saiba como fazer parte desta história."  
+      title: "Quando os dados imutáveis mudam tudo"
+      rating_id: 
+      description: "Origens e motivações para usar dados imutáveis, as vantagens de lidar com dados imutáveis, os drawbacks. Interações com frameworks como AngularJS e ReactJS. Como implementar imutabilidade utilizando ES5, ES6 ou ImmutableJS."  
   -
-    name: "Luiz Sordi"
-    site: "https://www.linkedin.com/in/lrsordi"
+    name: ""
+    site: ""
     time: "14h20"
-    photo: "https://media.licdn.com/media/p/3/000/1ed/39e/2adf96c.jpg"
-    company: "Huia"
-    company_site: "http://www.huia.com.br"
+    photo: ""
+    company: ""
+    company_site: ""
     presentation:
-      title: "#2 cases interativos com JS"
-      rating_id: 6
-      description: "No primeiro, trataremos da utilização de webcam para detecção de gestures e reconhecimento facial. Já no segundo projeto, mostraremos o uso de 3D (WebGL) com realidade virtual, além de integração com Oculus Rift. Os cases foram desenvolvidos na Huia e serão explorados desde o problema até a solução técnica."
+      title: "Em breve"
+      rating_id: 
+      description: ""
   -
-    name: "Túlio Ornelas"
-    site: "https://github.com/tulios"
+    name: ""
+    site: ""
     time: "15h00"
-    photo: "https://avatars2.githubusercontent.com/u/33231?v=3&amp;s=460"
-    company: "Globo.com"
-    company_site: "http://globo.com"
+    photo: ""
+    company: ""
+    company_site: ""
     presentation:
-      title: "Ciência de foguete, usando reactJS para criar a futura plataforma de vídeos da globo.com"
-      rating_id: 5
-      description: "Uma troca de experiência sobre o desenvolvimento de um grande projeto em ReactJS, explorando os desafios e as soluções encontradas. A internet esta cheia de exemplos com um palmo de profundidade veja como as coisas são feitas de verdade."
+      title: "Em breve"
+      rating_id: 
+      description: ""
   -    
     name: "Lanche"
     time: "15h40"
   -
-    name: "Fabrício Matté"
-    site: "https://github.com/UltCombo"
+    name: ""
+    site: ""
     time: "16h00"
-    photo: "https://avatars3.githubusercontent.com/u/2090712?v=3&amp;s=460"
-    company: "Nodo"
-    company_site: "http://nodo.cc"
+    photo: ""
+    company: ""
+    company_site: ""
     presentation:
-      title: "O JavaScript do futuro, hoje e agora, serião mesmo."
-      rating_id: 6
-      description: "Apresentarei uma forma eficiente e prática de trabalhar a sério com as novas e futuras features da linguagem JavaScript. Esta palestra tem o foco em otimizar seu workflow de desenvolvimento com ECMAScript.next, através de builds incrementais, testes unitários e afins para que você possa desenvolver da forma mais agradável."
+      title: "Em breve"
+      rating_id: 
+      description: ""
   -
-    name: "Diogo Lucas"
-    site: "https://about.me/diogo.lucas"
+    name: ""
+    site: ""
     time: "16h40"
-    photo: "https://avatars1.githubusercontent.com/u/543526?v=3&amp;s=460"
-    company: "AGCO"
-    company_site: "http://www.agcocorp.com"
+    photo: ""
+    company: ""
+    company_site: ""
     presentation:
-      title: "Criação de APIs lightweight com harvester.js"
-      rating_id: 3
-      description: "Tecnologias como node.js, MongoDB e ElasticSearch são um fit fantástico para a criação de APIs leves e escaláveis. Nesta apresentação, conheceremos o harvester.js, uma biblioteca de apoio na criação dessas APIs, focada na eliminação de código desnecessário e no uso de padrões abertos."
+      title: "Em breve"
+      rating_id: 
+      description: ""
   -
-    name: "Rafael Specht da Silva"
-    site: "https://github.com/rssilva"
+    name: "Jean Carlo Emer"
+    site: "http://jcemer.com/"
     time: "17h20"
-    photo: "https://avatars2.githubusercontent.com/u/2047941?s=460"
-    company: "Grupo RBS"
-    company_site: "http://gruporbs.com.br"
+    photo: "/images/2016/jean-carlo-emer.jpg"
+    company: "Globo.com"
+    company_site: "http://globo.com"
     presentation:
-      title: "Processamento Digital de Sinais com Javascript"
-      rating_id: 3
-      description: "As novas APIs da web tem possibilitado grandes feitos para o Javascript. Essa palestra aborda tratamento de sinais que vão desde a criação de filtros de imagem, passando por distorções de áudio (e pedais de guitarra!), até compressão de streams! Vamos falar sobre as barreiras que a linguagem quebra diariamente!"
+      title: "Aplicações Web - um estudo sobre React"
+      rating_id: 
+      description: "Esta palestra tem como objetivo revisitar conceitos de aplicações escritas para funcionar na Internet. Veremos quais as vantagens e principais tendências para criação de experiências de usuário diferenciadas. Iremos abordar escrita de código no universo React focando em resultados."
   -
     name: "Encerramento"
     time: "18h00"
@@ -175,9 +175,19 @@ sponsors:
     logo: "sponsors/kinghost.svg"
     url: "http://kinghost.com.br"
 
+  -
+    name: "e-core"
+    logo: "sponsors/e-core.png"
+    url: "http://ecore.com.br"
+
 partners:
   -
     name: "BrazilJS"
     logo: "partners/braziljs-logo.png"
     url: "https://braziljs.org"
+
+  -
+    name: "iMasters"
+    logo: "sponsors/imasters.png"
+    url: "http://imasters.com.br/"
 ---
