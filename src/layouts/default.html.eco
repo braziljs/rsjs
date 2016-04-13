@@ -56,7 +56,7 @@
     <div class="content" id="content">
         <div class="wrapper">
             <% for section in @document.sections : %>
-            <section class="<%= section %>" id="<%= @document.labels[section].toLowerCase() %>">
+            <section class="<%= section %>" id="<%= @document.labels[section].toLowerCase().replace(/\s/g, '_') %>">
                 <h1 class="title"><%= @document.labels[section] %></h1>
                 <%- @tryPartial("#{section}.html.eco", ['section', @document.path], @) %>
             </section>
@@ -67,7 +67,7 @@
     <div class="footer">
         <div class="wrapper">
             <% for section in @document.footer : %>
-            <section class="<%= section %>" id="<%= @document.labels[section].toLowerCase() %>">
+            <section class="<%= section %>" id="<%= @document.labels[section].toLowerCase().replace(/\s/g, '_') %>">
                 <h1 class="title"><%= @document.labels[section] %></h1>
                 <%- @partial("section/#{section}.html.eco", @) %>
             </section>
