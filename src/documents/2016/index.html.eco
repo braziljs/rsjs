@@ -49,7 +49,7 @@ schedule:
   -
     name: "Rafael Fuzifaru Cianci"
     site: "https://twitter.com/rafacianci"
-    time: "09h00"
+    time: "09h20"
     photo: "/images/2016/rafael-fuzifaru-cianci.jpg"
     company: "Compufour"
     company_site: "https://www.compufour.com.br/"
@@ -60,7 +60,7 @@ schedule:
   -
     name: "Matheus Lima"
     site: "https://matheuslima.com/"
-    time: "9h40"
+    time: "10h00"
     photo: "/images/2016/matheus-lima.jpg"
     company: "Concrete Solutions"
     company_site: "http://www.concretesolutions.com.br/"
@@ -70,11 +70,11 @@ schedule:
       description: "Uma introdução a Programação Funcional, usando exemplos com ES6, para despertar o interesse através de motivações reais e claras do porquê do uso da mesma."
   -
     name: "Lanche"
-    time: "10h20"
+    time: "10h40"
   -
     name: "Vinicius Dacal Lopes"
     site: "http://viniciusdacal.com"
-    time: "10h40"
+    time: "11h20"
     photo: "/images/2016/vinicius-dacal.jpg"
     company: "Coderockr"
     company_site: "http://en.coderockr.com/"
@@ -83,23 +83,23 @@ schedule:
       rating_id: 
       description: "Com a ascensão do paradigma funcional, um dos conceitos muito abordado é imutabilidade, mas o que isso significa, quais são os reais benefícios e por que você deveria estar utilizando? Nesta palestra voltada tanto para quem está começando quanto para programadores experientes que estão acostumados com o paradigma imperativo, será abordado o tema, de forma simples e objetiva, junto com demonstrações dos reais ganhos que essa prática trás."
   -
-    name: ""
-    site: ""
-    time: "11:20"
-    photo: ""
-    company: ""
-    company_site: ""
-    presentation:
-      title: "Em breve"
-      rating_id: 
-      description: ""
-  -
     name: "Rango"
     time: "12h00"
   -
+    name: "Luiz Fernando Rodrigues"
+    site: "http://fernahh.com.br"
+    time: "14:00"
+    photo: "/images/2016/luiz.jpg"
+    company: "ContaAzul"
+    company_site: "https://contaazul.com"
+    presentation:
+      title: "JavaScript no terminal"
+      rating_id: 
+      description: "Se o JavaScript está em todos os lugares, obviamente ele também está no terminal. Nessa talk vamos ver como desenvolver CLIs com JavaScript usando boas práticas, como módulos e testes que irão garantir a flexibilidade e manutenção de nossas ferramentas."
+  -
     name: "William Huang"
     site: "https://github.com/tudobala"
-    time: "14h00"
+    time: "14h40"
     photo: "/images/2016/william-huang.png"
     company: "Maistre"
     company_site: "http://www.maistre.com.br"
@@ -108,45 +108,23 @@ schedule:
       rating_id: 
       description: "Origens e motivações para usar dados imutáveis, as vantagens de lidar com dados imutáveis, os drawbacks. Interações com frameworks como AngularJS e ReactJS. Como implementar imutabilidade utilizando ES5, ES6 ou ImmutableJS."  
   -
-    name: ""
-    site: ""
-    time: "14h20"
-    photo: ""
-    company: ""
-    company_site: ""
+    name: "Rafael Specht da Silva"
+    site: "https://github.com/rssilva"
+    time: "15h20"
+    photo: "/images/2016/rafael-specht.jpg"
+    company: "Fabuloso Destino"
+    company_site: "http://www.fabulosodestino.com.br/"
     presentation:
-      title: "Em breve"
+      title: "Interação com Hardware usando JS"
       rating_id: 
-      description: ""
-  -
-    name: ""
-    site: ""
-    time: "15h00"
-    photo: ""
-    company: ""
-    company_site: ""
-    presentation:
-      title: "Em breve"
-      rating_id: 
-      description: ""
+      description: "Temos ouvido que JavaScript 'roda em tudo' e nessa palestra gostaria de demonstrar como usar a linguagem para manipular hardware. Uma introdução básica aos conceitos e plataformas. Acender leds em vez de manipular o DOM? Descubra porque até a NASA tem usado JS para monitorar sensores."
   -    
     name: "Lanche"
-    time: "15h40"
-  -
-    name: ""
-    site: ""
     time: "16h00"
-    photo: ""
-    company: ""
-    company_site: ""
-    presentation:
-      title: "Em breve"
-      rating_id: 
-      description: ""
   -
     name: ""
     site: ""
-    time: "16h40"
+    time: "16h30"
     photo: ""
     company: ""
     company_site: ""
@@ -179,6 +157,10 @@ sponsors:
     name: "e-core"
     logo: "sponsors/e-core.png"
     url: "http://ecore.com.br"
+  -
+    name: "Coderockr"
+    logo: "images/2016/coderockr.png"
+    url: "http://coderockr.com/"
 
 partners:
   -
