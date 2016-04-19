@@ -122,16 +122,16 @@ schedule:
     name: "Lanche"
     time: "16h00"
   -
-    name: ""
-    site: ""
+    name: "Rodrigo Willrich"
+    site: "https://github.com/rwillrich"
     time: "16h30"
-    photo: ""
-    company: ""
-    company_site: ""
+    photo: "/images/2016/rodrigo.jpeg"
+    company: "Globo.com"
+    company_site: "http://globo.com"
     presentation:
-      title: "Em breve"
+      title: "Redux é um container de estado previsível para aplicações JavaScript. Mas o que isso quer dizer?"
       rating_id: 
-      description: ""
+      description: "Nessa talk abordaremos a origem dessa biblioteca, como ela funciona, algumas boas práticas e como aproveitar as técnicas de hot reloading e time travel debugging."
   -
     name: "Jean Carlo Emer"
     site: "http://jcemer.com/"
